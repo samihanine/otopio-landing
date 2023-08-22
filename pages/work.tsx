@@ -1,5 +1,4 @@
 import Head from "next/head";
-
 import { Header } from "@/components/Header";
 import { CaseStudies } from "@/components/CaseStudies";
 import { getAllCaseStudies, getFeaturedTags } from "@/lib/caseStudies";

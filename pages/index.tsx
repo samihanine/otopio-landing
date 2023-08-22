@@ -13,7 +13,7 @@ export default function Home({ caseStudies }: { caseStudies: CaseStudy[] }) {
   return (
     <>
       <Head>
-        <title>Sami - Full Stack Developer, Entrepreneur, and Technology</title>
+        <title>Otopio - Web agency</title>
         <meta
           name="description"
           content="I'm a passionate developer, entrepreneur, and general technology enthusiast living in Montréal."

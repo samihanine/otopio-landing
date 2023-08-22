@@ -9,8 +9,8 @@ import { Container } from "./Container";
 
 const links = [
   { label: "Home", href: "/" },
-  { label: "About", href: "/about" },
   { label: "Work", href: "/work" },
+  { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
 
