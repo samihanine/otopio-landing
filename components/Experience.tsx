@@ -8,7 +8,7 @@ export function Experience() {
         <div className="mx-auto grid max-w-xl items-center gap-6 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:gap-16">
           <div>
             <h2 className="font-display text-4xl font-semibold text-slate-900 sm:text-5xl">
-              I'm your{" "}
+              We're your{" "}
               <span className="relative whitespace-nowrap">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +83,7 @@ export function Experience() {
                         Excellence
                       </h3>
                       <p className="mt-2.5 text-base text-slate-700">
-                        I take pride in doing things well. All client work is
+                        We take pride in doing things well. All client work is
                         done with the best quality possible.
                       </p>
                     </div>
@@ -154,8 +154,8 @@ export function Experience() {
                         Speed
                       </h3>
                       <p className="mt-2.5 text-base text-slate-700">
-                        I like to work hard and fast. I know how important
-                        deadlines are to my clients.
+                        We like to work hard and fast. We know how important
+                        deadlines are to our clients.
                       </p>
                     </div>
                   </div>
@@ -224,7 +224,7 @@ export function Experience() {
                         Responsiveness
                       </h3>
                       <p className="mt-2.5 text-base text-slate-700">
-                        You can rely on me to be responsive and clear whenever
+                        You can rely on us to be responsive and clear whenever
                         we work together.
                       </p>
                     </div>
@@ -260,7 +260,7 @@ export function Experience() {
                   </defs>
                 </svg>
                 <span className="inline-block max-w-[220px] -rotate-12 transform font-writing text-2xl tracking-wide text-slate-600">
-                  What differentiates me from others
+                  What differentiates us from others
                 </span>
               </div>
             </ul>
@@ -410,7 +410,7 @@ export function Experience() {
                       Years of experience
                     </dt>
                     <dd className="order-first text-3xl font-extrabold text-white sm:text-4xl">
-                      10
+                      6
                     </dd>
                   </div>
 
@@ -419,7 +419,7 @@ export function Experience() {
                       Projects completed
                     </dt>
                     <dd className="order-first text-3xl font-extrabold text-white sm:text-4xl">
-                      150
+                      30
                     </dd>
                   </div>
                 </div>

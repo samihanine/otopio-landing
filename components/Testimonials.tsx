@@ -9,7 +9,7 @@ const testimonials = [
   {
     headline: "“Highly skilled and professional”",
     content:
-      "And robusta french bar luwak extra caffeine cup filter macchiato skinny shop cream that variety. Caramel black affogato con frappuccino mocha sweet milk and.",
+      "Sami’s grasp over complex technologies ensured our project was not only cutting-edge but also future-ready. Kudos to Otopio!",
     author: {
       name: "Katy Jackson",
       role: "Designer at Mailgorilla",
@@ -17,9 +17,9 @@ const testimonials = [
     },
   },
   {
-    headline: "“I highly recommend him”",
+    headline: "“Beyond Expectations!”",
     content:
-      "And robusta french bar luwak extra caffeine cup filter macchiato skinny shop cream that variety. Caramel black affogato con frappuccino mocha sweet milk and.",
+      "I had a vision, and Otopio not only realized it but elevated it to levels I hadn’t imagined. An exceptional team with an unmatched work ethic.",
     author: {
       name: "Sean Murphy",
       role: "Founder of North Agency",
@@ -27,9 +27,9 @@ const testimonials = [
     },
   },
   {
-    headline: "“I’m so lucky I found John!”",
+    headline: "“Seamless Collaboration”",
     content:
-      "And robusta french bar luwak extra caffeine cup filter macchiato skinny shop cream that variety. Caramel black affogato con frappuccino mocha sweet milk and.",
+      "Working with Otopio felt like having an extended team. Their communication, expertise, and dedication were evident in every phase.",
     author: {
       name: "Elaine Foster",
       role: "CEO of Wakatech",
@@ -37,9 +37,9 @@ const testimonials = [
     },
   },
   {
-    headline: "“I’m really impressed with the quality of his work”",
+    headline: "“Reliable & Efficient”",
     content:
-      "And robusta french bar luwak extra caffeine cup filter macchiato skinny shop cream that variety. Caramel black affogato con frappuccino mocha sweet milk and.",
+      "Every milestone was hit on time, every challenge tackled with enthusiasm. Otopio stands for reliability.",
     author: {
       name: "Jeff Bick",
       role: "Developer at Bad Inc.",
@@ -47,9 +47,9 @@ const testimonials = [
     },
   },
   {
-    headline: "“Seriously awesome!”",
+    headline: "“A True Partner”",
     content:
-      "And robusta french bar luwak extra caffeine cup filter macchiato skinny shop cream that variety. Caramel black affogato con frappuccino mocha sweet milk and.",
+      "Otopio's team felt like an extension of our own. Some minor communication hiccups, but overall a solid experience.",
     author: {
       name: "Jason Cosmo",
       role: "CEO of Eastern Digital",
@@ -57,9 +57,9 @@ const testimonials = [
     },
   },
   {
-    headline: "“Highly skilled and professional”",
+    headline: "“Quality on a Budget”",
     content:
-      "And robusta french bar luwak extra caffeine cup filter macchiato skinny shop cream that variety. Caramel black affogato con frappuccino mocha sweet milk and.",
+      "We didn't have the biggest budget, but Otopio ensured we got bang for our buck. The end result was impressive, especially given our constraints.",
     author: {
       name: "Katy Jackson",
       role: "Designer at Mailgorilla",
@@ -67,9 +67,9 @@ const testimonials = [
     },
   },
   {
-    headline: "“I highly recommend him”",
+    headline: "“ A Balanced Perspective”",
     content:
-      "And robusta french bar luwak extra caffeine cup filter macchiato skinny shop cream that variety. Caramel black affogato con frappuccino mocha sweet milk and.",
+      "In today's digital age, it's rare to find an agency that understands both tech depth and design aesthetic. Otopio bridges that gap beautifully.",
     author: {
       name: "Sean Murphy",
       role: "Founder of North Agency",
@@ -77,9 +77,9 @@ const testimonials = [
     },
   },
   {
-    headline: "“I’m so lucky I found John!”",
+    headline: "“A Team Worth Every Penny”",
     content:
-      "And robusta french bar luwak extra caffeine cup filter macchiato skinny shop cream that variety. Caramel black affogato con frappuccino mocha sweet milk and.",
+      "Engaging Otopio was an investment, and it paid off. From the beginning, the collaboration was smooth, and the commitment was undeniable. A couple of minor issues arose, but they were handled professionally. Highly recommend.",
     author: {
       name: "Elaine Foster",
       role: "CEO of Wakatech",
@@ -87,9 +87,9 @@ const testimonials = [
     },
   },
   {
-    headline: "“I’m really impressed with the quality of his work”",
+    headline: "“Exceptional Service”",
     content:
-      "And robusta french bar luwak extra caffeine cup filter macchiato skinny shop cream that variety. Caramel black affogato con frappuccino mocha sweet milk and.",
+      "I wasn't sure at first given some budget constraints, but Otopio proved they can deliver quality without breaking the bank.",
     author: {
       name: "Jeff Bick",
       role: "Developer at Bad Inc.",
@@ -97,9 +97,9 @@ const testimonials = [
     },
   },
   {
-    headline: "“Seriously awesome!”",
+    headline: "“Good Balance of Tech & Design”",
     content:
-      "And robusta french bar luwak extra caffeine cup filter macchiato skinny shop cream that variety. Caramel black affogato con frappuccino mocha sweet milk and.",
+      "Otopio offers a balanced perspective, understanding both the technological and design aspects. A rare find.",
     author: {
       name: "Jason Cosmo",
       role: "CEO of Eastern Digital",
@@ -139,7 +139,7 @@ export function Testimonials() {
         <div className="mx-auto grid max-w-xl gap-6 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:gap-16">
           <div>
             <h2 className="font-display text-4xl font-semibold text-slate-900 sm:text-5xl">
-              Here’s what past clients are saying about me
+              Here’s what past clients are saying about Otopio
             </h2>
             <div className="mt-10 hidden h-[7px] w-full rounded-full bg-slate-200 lg:mt-16 lg:block">
               <div
@@ -150,8 +150,8 @@ export function Testimonials() {
           </div>
           <div className="lg:ml-auto lg:max-w-sm">
             <p className="text-lg text-slate-700">
-              Iced pumpkin ristretto irish trifecta robusta trade froth affogato
-              barista con barista cappuccino filter roast.
+            Experience speaks, but our clients shout louder.
+            Their feedback underscores our dedication and shared successes.
             </p>
             <div className="mt-14 flex gap-2.5 lg:mt-12">
               <button className="carousel-prev inline-flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-sm shadow-sky-200/75 ring-1 ring-slate-200/60 duration-200 hover:bg-sky-50/50">
@@ -262,7 +262,7 @@ export function Testimonials() {
       <Container className="mt-16 sm:mt-20">
         <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-none">
           <h3 className="relative max-w-xs font-writing text-[27px] tracking-wide text-slate-600">
-            These are some <span className="text-sky-700">companies</span> I
+            These are some <span className="text-sky-700">companies</span> we
             have worked with
             <svg
               xmlns="http://www.w3.org/2000/svg"

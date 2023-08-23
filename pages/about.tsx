@@ -15,7 +15,7 @@ export default function About() {
         <title>About - Otopio</title>
         <meta
           name="description"
-          content="Hi, I'm Jane Doe, a passionate developer, entrepreneur, and general technology enthusiast living in San Francisco."
+          content="Hi, we are Otopio, a web agency of passioned developers, entrepreneurs, designers and general technology enthusiasts living in Montréal."
         />
       </Head>
       <Header />

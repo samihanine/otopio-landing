@@ -9,10 +9,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Contact me - Jane Doe</title>
+        <title>Contact us - Otopio </title>
         <meta
           name="description"
-          content="Hi, I'm Jane Doe, a passionate developer, entrepreneur, and general technology enthusiast living in San Francisco."
+          content="Hi, we are Otopio, a web agency of passioned developers, entrepreneurs, designers and general technology enthusiasts living in Montréal."
         />
       </Head>
       <Header />
@@ -23,7 +23,7 @@ export default function About() {
               <div className="absolute inset-y-0 left-0 hidden w-full -translate-x-full bg-slate-50 lg:block" />
               <div className="relative mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
                 <h2 className="font-display text-4xl font-semibold leading-tight text-slate-900 sm:text-5xl sm:leading-tight lg:text-[40px] lg:leading-tight xl:text-5xl xl:leading-tight">
-                  How can I help you? Let’s get in touch
+                  How can we help you? Let’s get in touch
                   <span className="ml-4 sm:ml-6">👋</span>
                 </h2>
 
@@ -36,7 +36,7 @@ export default function About() {
                 </div>
                 <div className="relative mt-14 h-fit w-fit font-writing text-2xl tracking-wide text-slate-600 sm:mt-20 sm:text-[27px]">
                   <span className="inline-block w-52 max-w-[220px] transform sm:w-auto sm:-rotate-6">
-                    You can <span className="text-sky-700">reach me</span> at
+                    You can <span className="text-sky-700">reach us</span> at
                     the following
                   </span>
                   <svg
@@ -85,16 +85,16 @@ export default function About() {
                     </svg>
                     <div className="sm:pt-0.5">
                       <p className="font-display text-lg text-slate-900">
-                        Email me
+                        Email us
                       </p>
                       <p className="mt-1.5 text-base text-slate-600 sm:mt-2">
-                        I will usually email you back within an hour
+                        We will usually email you back within an hour
                       </p>
                       <Link
                         href="mailto:hey@janedoe.com"
                         className="mt-5 inline-block text-sky-700 duration-200 ease-in-out hover:text-sky-600 sm:mt-6"
                       >
-                        hey@janedoe.com
+                        otopio@gmail.com
                       </Link>
                     </div>
                   </div>
@@ -116,16 +116,16 @@ export default function About() {
 
                     <div className="sm:pt-0.5">
                       <p className="font-display text-lg text-slate-900">
-                        Call me
+                        Call us
                       </p>
                       <p className="mt-2 text-base text-slate-600">
-                        I’m available weekdays from 9AM to 5PM
+                        We available weekdays from 9AM to 5PM
                       </p>
                       <Link
                         href="tel:+13234567891"
                         className="mt-6 inline-block text-sky-700 duration-200 ease-in-out hover:text-sky-600"
                       >
-                        +1 (323) 456-7891
+                        +1 (514) 565-1701
                       </Link>
                     </div>
                   </div>
@@ -135,11 +135,10 @@ export default function About() {
             <div className="px-5 py-16 sm:px-6 sm:py-24 lg:col-span-6 lg:pl-0 lg:pr-8 lg:pt-32 xl:col-span-5 xl:col-start-8 2xl:pr-0">
               <div className="mx-auto max-w-lg lg:mr-0">
                 <h3 className="font-display text-3xl font-semibold text-slate-900">
-                  Fill our the form below to get started
+                  Fill out the form below to get started
                 </h3>
                 <p className="mt-4 text-lg text-slate-600">
-                  Turkish cortado mazagran skinny macchiato espresso trade
-                  medium aromatic.
+                Dive into the digital era with Otopio. We're just one message away.
                 </p>
                 <form action="#" method="POST" className="mt-10">
                   <div className="space-y-7">
@@ -156,7 +155,7 @@ export default function About() {
                           name="name"
                           id="name"
                           autoComplete="name"
-                          placeholder="Jane Doe"
+                          placeholder="Your name"
                           className="block w-full rounded-xl border-0 bg-slate-50 px-4 py-4 text-md leading-4 text-slate-900 shadow-sm shadow-sky-100/50 ring-1 ring-inset ring-slate-200 transition-colors duration-200 ease-in-out placeholder:text-slate-400 hover:bg-white focus:border-0 focus:bg-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-600/60"
                         />
                       </div>
@@ -174,7 +173,7 @@ export default function About() {
                           name="email"
                           type="email"
                           autoComplete="email"
-                          placeholder="foobar@email.com"
+                          placeholder="example@email.com"
                           className="block w-full rounded-xl border-0 bg-slate-50 px-4 py-4 text-md leading-4 text-slate-900 shadow-sm shadow-sky-100/50 ring-1 ring-inset ring-slate-200 transition-colors duration-200 ease-in-out placeholder:text-slate-400 hover:bg-white focus:border-0 focus:bg-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-600/60"
                         />
                       </div>
@@ -198,7 +197,7 @@ export default function About() {
                           id="phone"
                           autoComplete="tel"
                           aria-describedby="phone-description"
-                          placeholder="+1 (800) 123-4567"
+                          placeholder="+1 (514) 123-4567"
                           className="block w-full rounded-xl border-0 bg-slate-50 px-4 py-4 text-md leading-4 text-slate-900 shadow-sm shadow-sky-100/50 ring-1 ring-inset ring-slate-200 transition-colors duration-200 ease-in-out placeholder:text-slate-400 hover:bg-white focus:border-0 focus:bg-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-600/60"
                         />
                       </div>
@@ -209,7 +208,7 @@ export default function About() {
                           htmlFor="message"
                           className="block font-medium text-slate-900"
                         >
-                          How can I help you?
+                          How can we help you?
                         </label>
                         <p
                           id="message-description"
@@ -224,7 +223,7 @@ export default function About() {
                           name="message"
                           rows={5}
                           aria-describedby="message-description"
-                          placeholder="Tell me a little bit about your project..."
+                          placeholder="Tell us a little bit about your project..."
                           className="block w-full rounded-xl border-0 bg-slate-50 px-4 py-4 text-md leading-6 text-slate-900 shadow-sm shadow-sky-100/50 ring-1 ring-inset ring-slate-200 transition-colors duration-200 ease-in-out placeholder:text-slate-400 hover:bg-white focus:border-0 focus:bg-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-600/60"
                         />
                       </div>

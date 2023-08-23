@@ -21,13 +21,8 @@ const links = [
 
 const socialLinks = [
   {
-    label: "Email me",
+    label: "Email us",
     icon: EmailIcon,
-    href: "#",
-  },
-  {
-    label: "Dribbble",
-    icon: DribbbleIcon,
     href: "#",
   },
   {
@@ -36,18 +31,8 @@ const socialLinks = [
     href: "#",
   },
   {
-    label: "Twitter",
-    icon: TwitterIcon,
-    href: "#",
-  },
-  {
     label: "LinkedIn",
     icon: LinkedInIcon,
-    href: "#",
-  },
-  {
-    label: "Github",
-    icon: GitHubIcon,
     href: "#",
   },
 ];
@@ -102,8 +87,7 @@ export function Footer({ newsletter = false }) {
             </div>
             <div className="flex flex-col items-center lg:col-span-5 lg:items-start">
               <p className="text-center text-lg text-slate-50 lg:max-w-sm lg:text-left">
-                Iced pumpkin ristretto irish trifecta robusta trade froth
-                affogato barista con barista cappuccino filter roast.
+                Crafting digital symphonies, one pixel at a time with Otopio.
               </p>
               <Link
                 href="/contact"
@@ -149,7 +133,7 @@ export function Footer({ newsletter = false }) {
               ))}
             </div>
             <p className="mt-8 text-base text-slate-400/90 md:mt-0">
-              © 2023 Tailwind Awesome. All rights reserved.
+              © 2023 Otopio. All rights reserved.
             </p>
           </div>
         </Container>

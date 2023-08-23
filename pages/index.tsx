@@ -16,7 +16,7 @@ export default function Home({ caseStudies }: { caseStudies: CaseStudy[] }) {
         <title>Otopio - Web agency</title>
         <meta
           name="description"
-          content="I'm a passionate developer, entrepreneur, and general technology enthusiast living in Montréal."
+          content="We are passionates developers, entrepreneurs, designers and general technology enthusiasts living in Montréal."
         />
       </Head>
       <Header />

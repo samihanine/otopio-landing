@@ -48,7 +48,7 @@ export function WorkExperience() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
             <h2 className="font-display text-4xl font-semibold text-slate-900 sm:text-5xl">
-              My career{" "}
+              Our career{" "}
               <span className="relative whitespace-nowrap">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

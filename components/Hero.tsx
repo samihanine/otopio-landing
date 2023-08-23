@@ -93,14 +93,14 @@ export function Hero() {
             businesses turn their ideas into reality
           </h1>
           <p className="mt-6 text-center text-lg leading-8 text-slate-700 lg:text-left">
-            I'm a passionate developer, entrepreneur, and general technology
-            enthusiast living in San Francisco. I've worked with hundreds of
-            startups to help them develop their ideas into profitable
-            businesses.
+          At Otopio, we are a team of fervent developers and design enthusiasts, 
+          pioneering the digital frontier from the heart of innovation. 
+          Together, we've empowered countless startups, 
+          morphing their visions into thriving digital ventures.
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-x-10 gap-y-6 lg:justify-start">
             <Button href="/contact" className="h-11">
-              Book a call with me
+              Book a call with us
             </Button>
 
             <div className="flex gap-3 sm:gap-4">
@@ -134,7 +134,7 @@ export function Hero() {
             <div>
               <div className="absolute hidden w-max md:left-full md:top-16 md:block lg:-left-28 lg:-top-8 2xl:left-full 2xl:top-16 ">
                 <span className="inline-block transform font-writing text-2xl tracking-wide text-slate-600 md:rotate-[16deg] lg:translate-x-6 lg:rotate-[-18deg] 2xl:rotate-12">
-                  Hi, I'm Jane!
+                  Hi, it's us !
                 </span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -161,7 +161,7 @@ export function Hero() {
                   className="h-auto w-4"
                   priority
                 />
-                4 years of experience
+                2 years of experience
               </div>
               <div className="absolute left-12 top-full inline-flex h-12 w-max -translate-y-6 items-center justify-center gap-3.5 rounded-2xl bg-white/90 px-8 text-sm font-semibold text-slate-700 shadow-lg shadow-sky-100/50 ring-1 ring-slate-900/5 backdrop-blur-md md:left-0 md:-translate-x-20 md:-translate-y-24 lg:-left-3 lg:-translate-y-24 lg:px-10 xl:-left-6 xl:-translate-x-28 xl:-translate-y-32">
                 <Image
@@ -170,7 +170,7 @@ export function Hero() {
                   className="h-6 w-auto"
                   priority
                 />
-                5 years of experience
+                4 years of experience
               </div>
               <div className="absolute top-[350px] hidden h-12 w-max items-center justify-center gap-3.5 rounded-2xl bg-white/90 px-8 text-sm font-semibold text-slate-700 shadow-lg shadow-sky-100/50 ring-1 ring-slate-900/5 backdrop-blur-md md:left-full md:inline-flex md:-translate-x-32 lg:left-48 lg:hidden lg:px-10 2xl:left-full 2xl:inline-flex 2xl:-translate-x-28">
                 <Image
