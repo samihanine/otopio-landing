@@ -112,7 +112,7 @@ export function Header() {
               className="flex flex-shrink-0 items-center"
             >
               <Image
-                src={"/images/logo.png"}
+                src={"/images/logo2.png"}
                 alt=""
                 className="h-8 w-auto sm:h-9 md:hidden lg:block lg:h-10"
               />

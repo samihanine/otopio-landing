@@ -104,7 +104,7 @@ export function Hero() {
             </Button>
 
             <div className="flex gap-3 sm:gap-4">
-              <SocialLink
+              {/* <SocialLink
                 href="https://dribbble.com"
                 aria-label="Follow on Dribbble"
                 icon={DribbbleIcon}
@@ -119,7 +119,7 @@ export function Hero() {
                 href="https://twitter.com"
                 aria-label="Follow on Twitter"
                 icon={TwitterIcon}
-              />
+              /> */}
             </div>
           </div>
         </div>

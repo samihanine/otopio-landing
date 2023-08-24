@@ -5,38 +5,38 @@ import { Company } from "@/types";
 
 const companies: Company[] = [
   {
-    name: "Adobe",
-    dates: "Dec 2016 - Oct 2017",
+    name: "Web Development Mastery",
+    dates: "",
     description:
-      "Breve macchiato bar cortado dripper shot sweet robust qui. Et café whipped go white that espresso fair origin pot cream est cup.",
+      "Delving deep into code, our technical prowess spans over a decade, ensuring your digital platforms run smoothly. From SAAS to intricate web systems, we've got the expertise that guarantees success.",
     logo: "/images/logos/icons/adobe.png",
   },
   {
-    name: "Dropbox",
-    dates: "Nov 2017 - Apr 2018",
+    name: "UI/UX Design Excellence",
+    dates: "",
     description:
-      "Breve macchiato bar cortado dripper shot sweet robust qui. Et café whipped go white that espresso fair origin pot cream est cup.",
+      "Crafting experiences that captivate and engage, we prioritize the user in every design decision. Every pixel is meticulously placed, ensuring a seamless user journey across all devices.",
     logo: "/images/logos/icons/dropbox.png",
   },
   {
-    name: "Gumroad",
-    dates: "Apr 2018 - Jan 2019",
+    name: "Artificial Intelligence Integration",
+    dates: "",
     description:
-      "Breve macchiato bar cortado dripper shot sweet robust qui. Et café whipped go white that espresso fair origin pot cream est cup.",
+      "Riding the wave of the future, we harness the power of AI to create smarter solutions. From predictive analysis to chatbots, our tech-forward approach keeps you ahead of the curve.",
     logo: "/images/logos/icons/gumroad.png",
   },
   {
-    name: "Mailchimp",
-    dates: "Jan 2019 - Mar 2020",
+    name: "Mobile Optimization",
+    dates: "",
     description:
-      "Breve macchiato bar cortado dripper shot sweet robust qui. Et café whipped go white that espresso fair origin pot cream est cup.",
+      "As the digital era shifts towards mobile, our designs adapt. We ensure your platform shines across all devices, delivering a consistent experience for every user, every time.",
     logo: "/images/logos/icons/mailchimp.png",
   },
   {
-    name: "Shopify",
-    dates: "Mar 2020 - Present",
+    name: "End-to-End Solutions",
+    dates: "",
     description:
-      "Breve macchiato bar cortado dripper shot sweet robust qui. Et café whipped go white that espresso fair origin pot cream est cup.",
+      "From the initial spark of an idea to post-launch support, we're with you every step of the way. Our comprehensive services cover every facet of the digital journey, ensuring your project's success from start to finish.",
     logo: "/images/logos/icons/shopify.png",
   },
 ];
@@ -48,7 +48,7 @@ export function WorkExperience() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
             <h2 className="font-display text-4xl font-semibold text-slate-900 sm:text-5xl">
-              Our career{" "}
+              Our core{" "}
               <span className="relative whitespace-nowrap">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -68,16 +68,16 @@ export function WorkExperience() {
                   </defs>
                 </svg>
 
-                <span className="relative text-sky-700">journey</span>
+                <span className="relative text-sky-700">strenghts</span>
               </span>{" "}
-              so far
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-slate-700">
-              Panna french americano macchiato breve roast cinnamon cortado
-              strong white pumpkin et single press aftertaste.
+            Delve into the heart of Otopio. 
+            Here's a snapshot of the skills and expertise that fuel our passion, 
+            drive our innovations, and set us apart in the digital realm.
             </p>
             <Button href="#" className="mt-10" variant="secondary">
-              Download CV
+              Book a call
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -125,7 +125,7 @@ export function WorkExperience() {
             ))}
             <li className="relative mt-3 flex h-fit items-center font-writing text-2xl tracking-wide text-slate-600 sm:left-14 sm:top-6 sm:mt-0 sm:block sm:text-[27px] md:left-20">
               <span className="inline-block w-52 max-w-[240px] transform sm:w-auto sm:-rotate-12">
-                I am currently here in my journey :D
+              The best of us !
               </span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
