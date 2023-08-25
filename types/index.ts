@@ -1,5 +1,3 @@
-import { StaticImageData } from "next/image";
-
 export type Article = {
   slug: string;
   title: string;
@@ -11,7 +9,7 @@ export type Article = {
 };
 
 export type CaseStudy = {
-  slug: string;
+  link: string;
   title: string;
   date: string;
   tags: string[];

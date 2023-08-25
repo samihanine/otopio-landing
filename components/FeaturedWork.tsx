@@ -1,32 +1,6 @@
-import Link from "next/link";
 import { Image } from "@/components/Image";
 import { Container } from "./Container";
-import {
-  WebDevelopmentIcon,
-  ConsultingIcon,
-  BrandingIcon,
-  ProductDevelopmentIcon,
-} from "./CategoryIcons";
 import { CaseStudy } from "@/types";
-
-const iconOptions: { [key: string]: (props: any) => JSX.Element } = {
-  "Web Development": WebDevelopmentIcon,
-  Consulting: ConsultingIcon,
-  Branding: BrandingIcon,
-  "Product Development": ProductDevelopmentIcon,
-};
-
-function CategoryIcon({
-  category,
-  ...props
-}: {
-  category: string;
-  [key: string]: any;
-}) {
-  const Icon = iconOptions[category];
-
-  return <Icon {...props} />;
-}
 
 export function FeaturedWork({ caseStudies }: { caseStudies: CaseStudy[] }) {
   return (
@@ -37,8 +11,9 @@ export function FeaturedWork({ caseStudies }: { caseStudies: CaseStudy[] }) {
             Check out our latest work
           </h2>
           <p className="mx-auto mt-4 max-w-md text-lg leading-8 text-slate-700 sm:mt-5">
-          We're committed to crafting impactful digital journeys, enriching everyday lives. 
-          Dive into our portfolio, where our mission shines through every project.
+            We're committed to crafting impactful digital journeys, enriching
+            everyday lives. Dive into our portfolio, where our mission shines
+            through every project.
           </p>
         </div>
         <div className="relative mx-auto mt-16 max-w-xl space-y-16 lg:mx-0 lg:max-w-none">
@@ -50,14 +25,11 @@ export function FeaturedWork({ caseStudies }: { caseStudies: CaseStudy[] }) {
               <Image
                 src={"/images/featured-work-item-bg.svg"}
                 alt=""
+                fill
                 className="absolute inset-x-0 top-6 h-full w-full rotate-90 lg:rotate-0"
               />
               <div className="relative order-2 px-1 sm:px-4 lg:order-1 lg:col-span-6 lg:pb-16 lg:pl-12 lg:pt-16 xl:col-span-5 xl:pb-24 xl:pl-16 xl:pt-8">
                 <div className="inline-flex items-center gap-2.5  text-sm font-medium leading-[16px] text-sky-900/80 sm:text-md">
-                  <CategoryIcon
-                    category={caseStudy.tags[0]}
-                    className="h-4 w-4 text-sky-900/75"
-                  />
                   {caseStudy.tags[0]}
                 </div>
                 <h3 className="mt-5 font-display text-2xl font-medium text-slate-900 sm:mt-6 sm:text-3xl">
@@ -66,11 +38,13 @@ export function FeaturedWork({ caseStudies }: { caseStudies: CaseStudy[] }) {
                 <p className="mt-3 text-md leading-8 text-slate-700 sm:mt-4 sm:text-base sm:leading-8">
                   {caseStudy.description}
                 </p>
-                <Link
-                  href={`/work/${caseStudy.slug}`}
+                <a
+                  href={caseStudy.link}
+                  target="_blank"
+                  rel="noreferrer"
                   className="group mt-14 flex items-center gap-2 text-sm font-medium text-sky-600 duration-200 ease-in-out hover:text-sky-700 sm:mt-16 sm:text-md"
                 >
-                  View Case Study
+                  View Work
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -83,10 +57,12 @@ export function FeaturedWork({ caseStudies }: { caseStudies: CaseStudy[] }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                </Link>
+                </a>
               </div>
-              <Link
-                href={`/work/${caseStudy.slug}`}
+              <a
+                href={caseStudy.link}
+                target="_blank"
+                rel="noreferrer"
                 className="group aspect-h-9 aspect-w-16 relative order-1 h-full w-full overflow-hidden rounded-2xl ring-1 ring-slate-100/75 lg:order-2 lg:col-span-6 lg:rounded-l-none lg:rounded-r-none xl:col-span-7 xl:rounded-tl-2xl"
               >
                 <Image
@@ -95,7 +71,7 @@ export function FeaturedWork({ caseStudies }: { caseStudies: CaseStudy[] }) {
                   className="absolute inset-x-0 bottom-0 top-16 object-cover object-top transition duration-300 group-hover:scale-105"
                   fill={true}
                 />
-              </Link>
+              </a>
             </div>
           ))}
         </div>

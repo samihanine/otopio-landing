@@ -1,7 +1,44 @@
 import { CaseStudy } from "@/types";
 
 export async function getAllCaseStudies() {
-  return [] as CaseStudy[];
+  return [
+    {
+      link: "https://www.obeobiogas.com",
+      title: "Obeo Biogas",
+      date: "2023-03-01",
+      tags: ["ReactJs"],
+      thumbnail: "/images/work/obeobiogas.png",
+      description:
+        "Obeo Biogas is a startup that produces biogas from organic waste. They needed a landing page to showcase their product and services.",
+    },
+    {
+      link: "https://www.obeobiogas.com",
+      title: "Topscale",
+      date: "2023-03-01",
+      tags: ["ReactJs"],
+      thumbnail: "/images/work/obeobiogas.png",
+      description:
+        "Obeo Biogas is a startup that produces biogas from organic waste. They needed a landing page to showcase their product and services.",
+    },
+    {
+      link: "https://www.obeobiogas.com",
+      title: "ALED",
+      date: "2023-03-01",
+      tags: ["ReactJs"],
+      thumbnail: "/images/work/obeobiogas.png",
+      description:
+        "Obeo Biogas is a startup that produces biogas from organic waste. They needed a landing page to showcase their product and services.",
+    },
+    {
+      link: "https://www.obeobiogas.com",
+      title: "Cabinet Latif",
+      date: "2023-03-01",
+      tags: ["ReactJs"],
+      thumbnail: "/images/work/obeobiogas.png",
+      description:
+        "Obeo Biogas is a startup that produces biogas from organic waste. They needed a landing page to showcase their product and services.",
+    },
+  ] as CaseStudy[];
 }
 
 export async function getAllTags() {

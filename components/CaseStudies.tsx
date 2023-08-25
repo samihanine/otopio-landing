@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Image } from "@/components/Image";
 import clsx from "clsx";
 import { Container } from "./Container";
@@ -48,8 +47,10 @@ export function CaseStudies({
                     : "transform rounded-br-[64px] lg:translate-y-24 xl:translate-y-32"
                 )}
               >
-                <Link
-                  href={`/work/${caseStudy.slug}`}
+                <a
+                  href={`${caseStudy.link}`}
+                  target="_blank"
+                  rel="noreferrer"
                   className={clsx(
                     "group aspect-w-16 aspect-h-9 relative block w-full overflow-hidden rounded-xl md:aspect-w-3 md:aspect-h-2",
                     index % 2 === 0 ? "order-1" : "order-2"
@@ -58,11 +59,9 @@ export function CaseStudies({
                   <Image
                     src={caseStudy.thumbnail}
                     alt={caseStudy.title}
-                    fill={true}
-                    className="w-full rounded-xl bg-slate-100 object-cover object-top transition duration-300 group-hover:scale-105"
+                    className="w-full border border-slate-200 rounded-xl bg-slate-100 object-cover object-top transition duration-300 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"></div>
-                </Link>
+                </a>
                 <div
                   className={clsx(
                     "flex flex-col items-center",
@@ -75,11 +74,13 @@ export function CaseStudies({
                   <p className="mt-5 text-center text-base leading-8 text-slate-700">
                     {caseStudy.description}
                   </p>
-                  <Link
-                    href={`/work/${caseStudy.slug}`}
+                  <a
+                    rel={"noreferrer"}
+                    target={"_blank"}
+                    href={caseStudy.link}
                     className="group mt-12 inline-flex items-center justify-center gap-2 rounded-full bg-white py-3 px-9 text-md font-medium text-sky-900 shadow-sm shadow-sky-100/50 ring-1 ring-slate-100/90 transition duration-300 hover:bg-white/60 hover:text-sky-700 hover:shadow-md hover:shadow-sky-100"
                   >
-                    View Case study
+                    View Work
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
@@ -92,7 +93,7 @@ export function CaseStudies({
                         clipRule="evenodd"
                       />
                     </svg>
-                  </Link>
+                  </a>
                 </div>
               </div>
             ))}
