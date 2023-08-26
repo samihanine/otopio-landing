@@ -1,6 +1,7 @@
 import { Button } from "./Button";
+import { BusinessIcon, ContentCreationIcon } from "./CategoryIcons";
 import { Container } from "./Container";
-import { TwitterIcon } from "./SocialIcons";
+import { EmailIcon, TwitterIcon } from "./SocialIcons";
 import { Image } from "@/components/Image";
 
 export function Workstation() {
@@ -11,21 +12,21 @@ export function Workstation() {
           <div>
             <div className="mx-auto max-w-2xl lg:mx-0">
               <h2 className="font-display text-4xl font-semibold text-slate-900 sm:text-5xl">
-                A tour of my gadgets and workstation
+                The Faces Behind the Magic
               </h2>
               <p className="mt-6 max-w-lg text-lg leading-8 text-slate-700">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione. Instant extraction mazagran milk
-                instant milk foam café iced aftertaste iced brewed.
+              We believe in the power of human connection. 
+              While our skills and expertise play a critical role, it's our personalities, 
+              passions, and quirks that truly make Otopio unique. 
+              Meet the team and get to know the people who bring your projects to life.
               </p>
               <Button
                 href="https://twitter.com/raguila8"
                 className="mt-10 gap-x-3.5 bg-slate-200/75"
                 variant="secondary"
               >
-                <TwitterIcon className="h-4 w-4 text-sky-500" />
-                Follow me on Twitter
+                <BusinessIcon className="h-4 w-4 text-sky-500" />
+                Meet the Team
               </Button>
             </div>
           </div>

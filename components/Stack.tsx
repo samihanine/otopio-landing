@@ -3,33 +3,33 @@ import { Container } from "./Container";
 
 const stack = [
   {
-    name: "Rails",
-    experience: "7+ years of experience",
-    logo: "/images/logos/icons/rails.png",
-  },
-  {
-    name: "Javascript",
-    experience: "8+ years of experience",
-    logo: "/images/logos/icons/javascript.png",
-  },
-  {
-    name: "Python",
-    experience: "4 years of experience",
-    logo: "/images/logos/icons/python.png",
-  },
-  {
-    name: "Postgresql",
-    experience: "6 years of experience",
+    name: "Figma",
+    experience: "3 years of experience",
     logo: "/images/logos/icons/postgresql.png",
   },
   {
+    name: "React",
+    experience: "4+ years of experience",
+    logo: "/images/logos/icons/rails.png",
+  },
+  {
+    name: "TypeScript",
+    experience: "3+ years of experience",
+    logo: "/images/logos/icons/javascript.png",
+  },
+  {
+    name: "Next.js",
+    experience: "2 years of experience",
+    logo: "/images/logos/icons/python.png",
+  },
+  {
     name: "Tailwind",
-    experience: "3 years of experience",
+    experience: "2 years of experience",
     logo: "/images/logos/icons/tailwindcss.png",
   },
   {
-    name: "Ruby",
-    experience: "9 years of experience",
+    name: "SQL",
+    experience: "6 years of experience",
     logo: "/images/logos/icons/ruby.png",
   },
 ];
@@ -83,10 +83,12 @@ export function Stack() {
                 </span>
               </h2>
               <p className="mt-6 text-lg leading-8 text-slate-700">
-                I've been a software developer for over 13 years, and while my
-                stack has shifted over the years, I kept coming back to the same
-                technologies. The following is the stack that I've developed &
-                honed over the years as a software developer.
+              Throughout Otopio's history, our tech stack has evolved, 
+              but some tools truly stood the test of time. 
+              They're not just trends to us, they're tried-and-true allies in 
+              creating powerful digital experiences. We've fine-tuned our choices, 
+              now rooted in Figma, React, Tailwind, Next.js, SQL  and TypeScript.
+              These technologies are the backbone of Otopio's success.
               </p>
               <div className="mt-12 grid grid-cols-2 gap-2 sm:gap-3">
                 {stack.map((tech) => (
@@ -127,8 +129,8 @@ export function Stack() {
               </div>
               <div className="absolute -bottom-16 right-6 max-w-xs rounded-2xl bg-sky-700/95 p-8 backdrop-blur-sm xl:right-0 xl:bottom-10 xl:translate-x-1/4">
                 <p className="font-display text-2xl font-medium text-sky-50">
-                  <span className="text-[28px] font-bold text-white">55+</span>{" "}
-                  Clients have loved my work
+                  <span className="text-[28px] font-bold text-white">10+</span>{" "}
+                  Clients loved their experience at Otopio
                 </p>
                 <div className="mt-6 flex -space-x-1.5 overflow-hidden">
                   {clientAvatars.map((avatar, index) => (
