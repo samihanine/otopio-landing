@@ -127,14 +127,14 @@ export function Hero() {
           <div className="aspect-h-5 aspect-w-4 relative rounded-2xl bg-slate-50">
             <img
               className="h-full w-full rounded-2xl object-cover object-center"
-              src={"/images/hero-portrait.jpg"}
+              src={"/images/hero.jpg"}
               alt=""
               sizes="(min-width: 552px) 32rem, calc(100vw - 40px)"
             />
             <div>
               <div className="absolute hidden w-max md:left-full md:top-16 md:block lg:-left-28 lg:-top-8 2xl:left-full 2xl:top-16 ">
                 <span className="inline-block transform font-writing text-2xl tracking-wide text-slate-600 md:rotate-[16deg] lg:translate-x-6 lg:rotate-[-18deg] 2xl:rotate-12">
-                  Hi, it's us !
+                  Beyond pixels
                 </span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -165,7 +165,7 @@ export function Hero() {
               </div>
               <div className="absolute left-12 top-full inline-flex h-12 w-max -translate-y-6 items-center justify-center gap-3.5 rounded-2xl bg-white/90 px-8 text-sm font-semibold text-slate-700 shadow-lg shadow-sky-100/50 ring-1 ring-slate-900/5 backdrop-blur-md md:left-0 md:-translate-x-20 md:-translate-y-24 lg:-left-3 lg:-translate-y-24 lg:px-10 xl:-left-6 xl:-translate-x-28 xl:-translate-y-32">
                 <Image
-                  src={"/images/logos/icons/sketch.png"}
+                  src={"/images/logos/icons/react.png"}
                   alt=""
                   className="h-6 w-auto"
                   priority

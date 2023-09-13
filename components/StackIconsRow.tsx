@@ -7,12 +7,12 @@ const icons = [
     icon: "/images/logos/icons/javascript.png",
   },
   {
-    name: "HTML5",
-    icon: "/images/logos/icons/html5.png",
+    name: "NextJS",
+    icon: "/images/logos/icons/nextjs.png",
   },
   {
-    name: "CSS",
-    icon: "/images/logos/icons/css.png",
+    name: "HTML5",
+    icon: "/images/logos/icons/html5.png",
   },
   {
     name: "Tailwind CSS",
@@ -23,20 +23,17 @@ const icons = [
     icon: "/images/logos/icons/figma.png",
   },
   {
-    name: "Sketch",
-    icon: "/images/logos/icons/sketch.png",
+    name: "NextJS",
+    icon: "/images/logos/icons/nextjss.png",
+  },
+
+  {
+    name: "ReactJS",
+    icon: "/images/logos/icons/react.png",
   },
   {
-    name: "Rails",
-    icon: "/images/logos/icons/rails.png",
-  },
-  {
-    name: "Netlify",
-    icon: "/images/logos/icons/netlify.png",
-  },
-  {
-    name: "Python",
-    icon: "/images/logos/icons/python.png",
+    name: "Typescript",
+    icon: "/images/logos/icons/ts.svg",
   },
   {
     name: "Postgresql",
@@ -46,6 +43,12 @@ const icons = [
     name: "Firebase",
     icon: "/images/logos/icons/firebase.png",
   },
+  
+  {
+    name: "AI",
+    icon: "/images/logos/icons/ai.png",
+  },
+
   {
     name: "C programming language",
     icon: "/images/logos/icons/c.png",

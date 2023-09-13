@@ -260,7 +260,7 @@ export function Testimonials() {
         <div className="absolute inset-y-0 right-0 z-10 hidden bg-gradient-to-r from-slate-50/0 to-slate-50/80 2xl:block 2xl:w-64"></div>
       </div>
       <Container className="mt-16 sm:mt-20">
-        <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-none">
+        {/* <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-none">
           <h3 className="relative max-w-xs font-writing text-[27px] tracking-wide text-slate-600">
             These are some <span className="text-sky-700">companies</span> we
             have worked with
@@ -308,7 +308,7 @@ export function Testimonials() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </Container>
     </section>
   );
