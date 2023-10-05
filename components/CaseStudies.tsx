@@ -27,7 +27,7 @@ export function CaseStudies({
             </p>
           </div>
           <Tabs
-            className="mt-14 gap-x-1.5 gap-y-4 md:gap-x-1 lg:mt-16 lg:gap-2"
+            className="mt-14 gap-x-1.5 gap-y-4 md:gap-x-1 lg:mt-16 lg:gap-2 hidden"
             tabs={tags}
             directory={"work"}
           />
@@ -41,7 +41,7 @@ export function CaseStudies({
               <div
                 key={caseStudy.title}
                 className={clsx(
-                  "flex flex-col gap-12 rounded-3xl bg-slate-50 px-7 py-12 sm:gap-14 sm:p-16 lg:py-14 lg:px-10 xl:gap-16 xl:p-16",
+                  "flex flex-col gap-12 rounded-3xl bg-slate-100 px-7 py-12 sm:gap-14 sm:p-8 xl:gap-10",
                   index % 2 === 0
                     ? "rounded-tl-[64px]"
                     : "transform rounded-br-[64px] lg:translate-y-24 xl:translate-y-32"

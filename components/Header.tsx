@@ -140,9 +140,7 @@ export function Header() {
             ))}
           </div>
           <div className="flex items-center">
-            <Button variant="secondary" href="/contact">
-              Book a call
-            </Button>
+            <Button href="/contact">Book a call</Button>
             <div className="ml-4 md:hidden">
               <MobileNav />
             </div>

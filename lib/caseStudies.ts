@@ -12,31 +12,13 @@ export async function getAllCaseStudies() {
         "TopScale is an AI-powered tool that streamlines social media management. We designed a landing page highlighting its key features, inviting users to join the waitlist.",
     },
     {
-      link: "https://welcome.senzu.app/fr_fr/",
-      title: "Senzu Printer",
-      date: "2023-03-01",
-      tags: ["Web App"],
-      thumbnail: "/images/work/printer.png",
-      description:
-        "Senzu Printer is a web application that allows printing of shipping labels for connected products. It is created using Electron and React, and is designed for use by printing partners of the company.",
-    },
-    {
-      link: "https://www.leapyearlearning.ai/",
-      title: "Leap Year Learning",
-      date: "2023-03-01",
+      link: "https://emergenceentreprise.com/",
+      title: "Emergence Entreprise",
+      date: "2023-08-01",
       tags: ["Landing Pages"],
-      thumbnail: "/images/work/lyl.png",
+      thumbnail: "/images/work/emergence.png",
       description:
-        "Leap Year Learning offers premier online courses tailored for large organizations. Our curriculum focuses on enhancing efficiency and creativity, empowering employees to adeptly navigate and utilize AI tools.",
-    },
-    {
-      link: "https://www.youtube.com/watch?v=4WxEdc81LhU",
-      title: "ALED",
-      date: "2023-03-01",
-      tags: ["Web App"],
-      thumbnail: "/images/work/aled.png",
-      description:
-        "ALED is a platform for students. It allows the users to exchange documents and ask questions in a forum. It also gives the possibility to consult one's timetable, one's grades and to discuss with other students.",
+        "Emergence Entreprise is a consulting firm that helps companies grow. We designed a landing page to showcase their services and attract new clients.",
     },
     {
       link: "https://miloguide.com/",
@@ -46,6 +28,24 @@ export async function getAllCaseStudies() {
       thumbnail: "/images/work/milo.png",
       description:
         "Obeo Biogas is a startup that produces biogas from organic waste. They needed a landing page to showcase their product and services.",
+    },
+    {
+      link: "https://book-store-olive.vercel.app",
+      title: "Light DPH",
+      date: "2023-09-01",
+      tags: ["Landing Pages", "Web App"],
+      thumbnail: "/images/work/light.png",
+      description:
+        "Light DPH is a web application that allows you to upload documents on the blockchain. You can also consult the documents uploaded by other users.",
+    },
+    {
+      link: "https://www.youtube.com/watch?v=4WxEdc81LhU",
+      title: "ALED",
+      date: "2023-03-01",
+      tags: ["Web App"],
+      thumbnail: "/images/work/aled.png",
+      description:
+        "ALED is a platform for students. It allows the users to exchange documents and ask questions in a forum. It also gives the possibility to consult one's timetable, one's grades and to discuss with other students.",
     },
     {
       link: "https://cabinetlatif.fr/",
@@ -64,6 +64,24 @@ export async function getAllCaseStudies() {
       thumbnail: "/images/work/tutorials.png",
       description:
         "I created these tutorials with the aim of helping fellow students learn Javascript. Recently, I also wrote a tutorial on React.js. In the future, I plan to cover PHP and SQL.",
+    },
+    {
+      link: "https://www.leapyearlearning.ai/",
+      title: "Leap Year Learning",
+      date: "2023-03-01",
+      tags: ["Landing Pages"],
+      thumbnail: "/images/work/lyl.png",
+      description:
+        "Leap Year Learning offers premier online courses tailored for large organizations. Our curriculum focuses on enhancing efficiency and creativity, empowering employees to adeptly navigate and utilize AI tools.",
+    },
+    {
+      link: "https://welcome.senzu.app/fr_fr/",
+      title: "Senzu Printer",
+      date: "2023-03-01",
+      tags: ["Web App"],
+      thumbnail: "/images/work/printer.png",
+      description:
+        "Senzu Printer is a web application that allows printing of shipping labels for connected products. It is created using Electron and React, and is designed for use by printing partners of the company.",
     },
     {
       link: "https://samihanine.github.io/practices/",
@@ -101,7 +119,6 @@ export async function getAllCaseStudies() {
       description:
         "Obeo Biogas is a startup that produces biogas from organic waste. They needed a landing page to showcase their product and services.",
     },
-
   ] as CaseStudy[];
 }
 
