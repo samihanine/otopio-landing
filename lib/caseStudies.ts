@@ -21,15 +21,6 @@ export async function getAllCaseStudies() {
         "Emergence Entreprise is a consulting firm that helps companies grow. We designed a landing page to showcase their services and attract new clients.",
     },
     {
-      link: "https://miloguide.com/",
-      title: "Milo Guide",
-      date: "2023-03-01",
-      tags: ["Web App"],
-      thumbnail: "/images/work/milo.png",
-      description:
-        "Obeo Biogas is a startup that produces biogas from organic waste. They needed a landing page to showcase their product and services.",
-    },
-    {
       link: "https://book-store-olive.vercel.app",
       title: "Light DPH",
       date: "2023-09-01",
