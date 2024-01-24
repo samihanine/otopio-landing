@@ -60,7 +60,7 @@ export default {
         headline: "Beyond Expectations!",
         content:
           "I had a vision, and Otopio not only realized it but elevated it to levels I hadn’t imagined. An exceptional team with an unmatched work ethic.",
-        authorName: "Sofiane L.",
+        authorName: "Sofian L.",
         authorRole: "CEO of Alter Ego",
       },
       sockdatingsim: {

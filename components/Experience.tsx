@@ -2,6 +2,14 @@ import { getI18n } from "@/locale/server";
 import { Container } from "./Container";
 import { Image } from "@/components/Image";
 import { DownloadOffer } from "./DownloadButton";
+import { Caveat } from "next/font/google";
+import clsx from "clsx";
+
+const caveat = Caveat({
+  subsets: ["latin"],
+  variable: "--font-mr-dafoe",
+  weight: "600",
+});
 
 export async function Experience() {
   const t = await getI18n();
@@ -165,7 +173,12 @@ export async function Experience() {
                     </clipPath>
                   </defs>
                 </svg>
-                <span className="inline-block max-w-[220px] -rotate-12 transform font-writing text-2xl tracking-wide text-slate-600">
+                <span
+                  className={clsx(
+                    `inline-block max-w-[220px] -rotate-12 transform font-writing text-2xl tracking-wide text-slate-600`,
+                    caveat.className
+                  )}
+                >
                   {t("home.experience.description")}
                 </span>
               </div>

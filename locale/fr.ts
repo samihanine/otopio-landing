@@ -55,7 +55,7 @@ export default {
         headline: "Au-delà des attentes !",
         content:
           "J'avais une vision, et Otopio ne l'a pas seulement réalisée, mais l'a élevée à des niveaux que je n'avais pas imaginés. Une équipe exceptionnelle avec une éthique de travail inégalée.",
-        authorName: "Sofiane L.",
+        authorName: "Sofian L.",
         authorRole: "PDG d'Alter Ego",
       },
       sockdatingsim: {
@@ -138,7 +138,7 @@ export default {
       contact: "+33 6 50 21 63 34",
     },
     email: {
-      title: "Email us",
+      title: "Envoyez-nous un email",
       subtitle: "Nous vous répondrons dans les plus brefs délais",
       contact: "contact@otopio.net",
     },

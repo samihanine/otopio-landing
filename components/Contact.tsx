@@ -1,10 +1,17 @@
 import Link from "next/link";
 import { Image } from "@/components/Image";
-import { Button } from "@/components/Button";
 import { getI18n } from "@/locale/server";
 import axios from "axios";
 import { redirect } from "next/navigation";
 import { SubmitFormButton } from "./SubmitFormButton";
+import clsx from "clsx";
+import { Caveat } from "next/font/google";
+
+const caveat = Caveat({
+  subsets: ["latin"],
+  variable: "--font-mr-dafoe",
+  weight: "600",
+});
 
 export default async function Contact() {
   const t = await getI18n();
@@ -58,12 +65,14 @@ export default async function Contact() {
                     className="h-full w-full rounded-3xl object-cover xl:translate-x-16"
                   />
                 </div>
-                <div className="relative mt-14 h-fit w-fit font-writing text-2xl tracking-wide text-slate-600 sm:mt-20 sm:text-[27px]">
+                <div
+                  className={clsx(
+                    "relative mt-14 h-fit w-fit font-writing text-2xl tracking-wide text-slate-600 sm:mt-20 sm:text-[27px]",
+                    caveat.className
+                  )}
+                >
                   <span className="inline-block w-52 max-w-[220px] transform sm:w-auto sm:-rotate-6">
-                    {t("contact.startSubtitle")}{" "}
-                    <span className="text-sky-700">
-                      {t("contact.endSubtitle")}
-                    </span>
+                    {t("contact.startSubtitle")} {t("contact.endSubtitle")}
                   </span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

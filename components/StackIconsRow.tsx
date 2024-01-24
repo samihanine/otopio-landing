@@ -1,12 +1,15 @@
 import { Image } from "@/components/Image";
 import { getI18n } from "@/locale/server";
 import clsx from "clsx";
+import { Caveat } from "next/font/google";
+
+const caveat = Caveat({
+  subsets: ["latin"],
+  variable: "--font-mr-dafoe",
+  weight: "600",
+});
 
 const icons = [
-  {
-    name: "Javascript",
-    icon: "/images/logos/icons/javascript.png",
-  },
   {
     name: "NextJS",
     icon: "/images/logos/icons/nextjs.png",
@@ -114,7 +117,12 @@ export async function StackIconsRow() {
             strokeLinecap="round"
           ></path>
         </svg>
-        <span className="inline-block w-48 rotate-6 transform font-writing text-[22px] tracking-wide text-slate-600 lg:text-2xl">
+        <span
+          className={clsx(
+            "inline-block w-48 rotate-6 transform font-writing text-[22px] tracking-wide text-slate-600 lg:text-2xl",
+            caveat.className
+          )}
+        >
           {t("home.stack.title")}
         </span>
       </div>

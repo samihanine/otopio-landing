@@ -2,6 +2,14 @@ import { Image } from "@/components/Image";
 import { Button } from "./Button";
 import { Container } from "./Container";
 import { getI18n } from "@/locale/server";
+import { Caveat } from "next/font/google";
+import clsx from "clsx";
+
+const caveat = Caveat({
+  subsets: ["latin"],
+  variable: "--font-mr-dafoe",
+  weight: "600",
+});
 
 export async function Hero() {
   const t = await getI18n();
@@ -89,25 +97,6 @@ export async function Hero() {
             <Button href="/contact" className="h-11">
               {t("common.callToAction")}
             </Button>
-
-            <div className="flex gap-3 sm:gap-4">
-              {/* <SocialLink
-                href="https://dribbble.com"
-                aria-label="Follow on Dribbble"
-                icon={DribbbleIcon}
-              />
-
-              <SocialLink
-                href="https://instagram.com"
-                aria-label="Follow on Instagram"
-                icon={InstagramIcon}
-              />
-              <SocialLink
-                href="https://twitter.com"
-                aria-label="Follow on Twitter"
-                icon={TwitterIcon}
-              /> */}
-            </div>
           </div>
         </div>
         <div className="mx-auto w-full max-w-lg lg:mr-0">
@@ -120,7 +109,12 @@ export async function Hero() {
             />
             <div>
               <div className="absolute hidden w-max md:left-full md:top-16 md:block lg:-left-28 lg:-top-8 2xl:left-full 2xl:top-16 ">
-                <span className="inline-block transform text-2xl tracking-wide text-slate-600 md:rotate-[16deg] lg:translate-x-6 lg:rotate-[-18deg] 2xl:rotate-12">
+                <span
+                  className={clsx(
+                    "inline-block transform text-2xl tracking-wide text-slate-600 md:rotate-[16deg] lg:translate-x-6 lg:rotate-[-18deg] 2xl:rotate-12",
+                    caveat.className
+                  )}
+                >
                   {t("home.hero.pixel")}
                 </span>
                 <svg
