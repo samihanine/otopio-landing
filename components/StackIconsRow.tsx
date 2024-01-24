@@ -12,7 +12,7 @@ const caveat = Caveat({
 const icons = [
   {
     name: "NextJS",
-    icon: "/images/logos/icons/nextjs.png",
+    icon: "/images/logos/icons/nextjs.svg",
   },
   {
     name: "HTML5",

@@ -5,14 +5,6 @@ export async function generateMetadata(_: { params: { lang: string } }) {
   const t = await getI18n();
   return {
     title: t("contact.metaTitle"),
-    description: t("common.description"),
-    twitter: {
-      card: "summary_large_image",
-      title: t("common.title"),
-      description: t("common.description"),
-      creator: "@_sam0411",
-    },
-    metadataBase: process.env.NEXT_PUBLIC_BASE_URL || "",
   };
 }
 

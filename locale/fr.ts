@@ -56,7 +56,7 @@ export default {
         content:
           "J'avais une vision, et Otopio ne l'a pas seulement réalisée, mais l'a élevée à des niveaux que je n'avais pas imaginés. Une équipe exceptionnelle avec une éthique de travail inégalée.",
         authorName: "Sofian L.",
-        authorRole: "PDG d'Alter Ego",
+        authorRole: "PDG d'Alter&Go",
       },
       sockdatingsim: {
         headline: "Collaboration fluide",
@@ -105,7 +105,7 @@ export default {
     view: "Voir le projet",
 
     alteretgo:
-      "Alter Ego est une entreprise qui propose des services de recrutement. Nous avons conçu une page d'atterrissage pour présenter leurs services et attirer de nouveaux clients",
+      "Alter&Go est une entreprise qui propose des services de recrutement. Nous avons conçu une page d'atterrissage pour présenter leurs services et attirer de nouveaux clients",
     topscaleai:
       "TopScale est un outil alimenté par l'IA qui rationalise la gestion des médias sociaux. Nous avons conçu une page d'atterrissage mettant en avant ses principales caractéristiques et invitant les utilisateurs à s'inscrire sur la liste d'attente",
     megascale:

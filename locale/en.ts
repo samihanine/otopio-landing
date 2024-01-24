@@ -16,7 +16,7 @@ export default {
     metaTitle: "Otopio | Web development agency",
     hero: {
       startTitle: "We are",
-      endTitle: "websites and applications for your business",
+      endTitle: "creating websites and applications for your business",
       subtitle:
         "At Otopio, we excel in the art of transforming your ideas into dynamic, tailor-made websites that embody the essence of your brand. We're second to none in the creation of bespoke web applications and SaaS solutions. SaaS solutions, guaranteeing a holistic digital presence tailored to your needs.",
       pixel: "Beyond pixels",
@@ -61,7 +61,7 @@ export default {
         content:
           "I had a vision, and Otopio not only realized it but elevated it to levels I hadn’t imagined. An exceptional team with an unmatched work ethic.",
         authorName: "Sofian L.",
-        authorRole: "CEO of Alter Ego",
+        authorRole: "CEO of Alter&Go",
       },
       sockdatingsim: {
         headline: "Seamless Collaboration",
@@ -103,7 +103,7 @@ export default {
       "Dive into my diverse range of projects, showcasing my expertise in software development, design, and dedication to delivering exceptional results.",
     view: "View Work",
     alteretgo:
-      "Alter Ego is a company that offers recruitment services. We designed a landing page to showcase their services and attract new clients.",
+      "Alter&Go is a company that offers recruitment services. We designed a landing page to showcase their services and attract new clients.",
     topscaleai:
       "TopScale is an AI-powered tool that streamlines social media management. We designed a landing page highlighting its key features, inviting users to join the waitlist.",
     megascale:

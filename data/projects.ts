@@ -22,7 +22,7 @@ export async function getProjects() {
       description: t("projects.alteretgo"),
     },
     {
-      link: "https://www.topscale.ai/",
+      link: "https://topscale.ai/",
       title: "Topscale",
       date: "2023-08-15",
       tags: ["Landing Pages"],
@@ -38,7 +38,7 @@ export async function getProjects() {
       description: t("projects.emergence"),
     },
     {
-      link: "https://www.megascale.ai",
+      link: "https://megascale.ai",
       title: "Megascale",
       date: "2023-03-01",
       tags: ["Web App"],
@@ -78,7 +78,7 @@ export async function getProjects() {
       description: t("projects.reacttutorials"),
     },
     {
-      link: "https://www.leapyearlearning.ai/",
+      link: "https://leapyearlearning.ai/",
       title: "Leap Year Learning",
       date: "2023-03-01",
       tags: ["Landing Pages"],
@@ -94,7 +94,7 @@ export async function getProjects() {
       description: t("projects.senzuprinter"),
     },
     {
-      link: "https://www.obeobiogas.com",
+      link: "https://obeobiogas.com",
       title: "Obeo Biogas",
       date: "2023-03-01",
       tags: ["Landing Pages"],

@@ -107,7 +107,7 @@ export async function Footer({
           </div>
           <hr className="mb-6 mt-12 h-px w-full border-slate-600/90 sm:mb-10 sm:mt-16" />
           <div className="flex flex-col items-center justify-between md:flex-row">
-            <div className="flex items-center gap-6">
+            <div className="flex items-center gap-6 flex-wrap">
               <div className="bg-white rounded-full p-1">
                 <LocaleSwitcher />
               </div>
