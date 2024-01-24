@@ -2,6 +2,7 @@ import { Image } from "@/components/Image";
 import clsx from "clsx";
 import { Container } from "./Container";
 import { Mr_Dafoe } from "next/font/google";
+import { getI18n } from "@/locale/server";
 
 const mrDafoe = Mr_Dafoe({
   subsets: ["latin"],
@@ -9,7 +10,8 @@ const mrDafoe = Mr_Dafoe({
   weight: "400",
 });
 
-export function AboutHero() {
+export async function AboutHero() {
+  const t = await getI18n();
   return (
     <section className="relative bg-slate-50/50">
       <svg
@@ -66,7 +68,7 @@ export function AboutHero() {
       <Container className="relative py-16 sm:py-24 lg:py-32">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:mx-0 lg:w-2/3 lg:max-w-none lg:px-8 lg:pr-16">
           <h1 className="font-display text-5xl font-semibold text-slate-900 sm:text-6xl">
-            Hello,{" "}
+            {t("about.hero.startTitle")}{" "}
             <span className="relative whitespace-nowrap">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -78,30 +80,17 @@ export function AboutHero() {
               >
                 <path d="M247.564 18.5807C241.772 13.3568 232.473 12.7526 225.225 11.4427C217.124 9.97395 208.996 8.57031 200.846 7.46093C186.542 5.51302 172.169 4.08854 157.79 3.01562C126.033 0.645827 94.0929 0.0338481 62.3387 2.36979C42.1785 3.85416 22.008 5.90885 2.32917 10.8463C-0.0155171 11.4349 0.207047 14.6719 2.6889 14.7083C22.0261 14.9896 41.3866 12.6406 60.7109 11.8568C79.9471 11.0807 99.2274 10.6719 118.484 10.9557C142.604 11.3125 166.719 12.8333 190.722 15.5156C199.956 16.5469 209.195 17.6016 218.411 18.8255C227.864 20.0807 237.259 22 246.767 20.7422C247.709 20.6198 248.426 19.3568 247.564 18.5807Z" />
               </svg>
-              <span className="relative">it's Sami & Maïssane</span>
+              <span className="relative">{t("about.hero.endTitle")}</span>
             </span>{" "}
-            and we are Otopio.
           </h1>
           <p className="mt-8 text-lg leading-8 text-slate-700">
-          Welcome to Otopio, our digital haven where innovation and design harmoniously intertwine.
-          I'm Sami. For over 12 years, I've been delving into the depths of web development, 
-          bringing countless games, sites, software, and SAAS solutions to life. 
-          My passion for technology knows no bounds, extending even into the realm of 
-          Artificial Intelligence. This isn't just a job for me; it's a journey of endless learning and innovation.
+            {t("about.hero.paragraph1")}
           </p>
           <p className="mt-6 text-lg leading-8 text-slate-700">
-            Maïssane here. My forte lies in UI/UX design, and though I've been shaping the digital world for only three years, 
-            I've been fortunate to collaborate on numerous projects. 
-            Whether it's web interfaces, mobile designs, or SAAS platforms, 
-            my aim is always the same: to create designs that not only look good but feel right.
+            {t("about.hero.paragraph2")}
           </p>
           <p className="mt-6 text-lg leading-8 text-slate-700">
-          Together, we are Otopio. Our shared vision is to seamlessly merge functionality and aesthetics, 
-          delivering digital solutions that stand out and serve a purpose. 
-          As we embark on each new project, we pour in our collective expertise, 
-          ensuring that every pixel, every line of code, is crafted with care and precision.
-          This isn't just our business; it's our passion. We invite you to be a part of our story. 
-          With Otopio, it's not about creating just another website; it's about crafting a memorable digital experience.
+            {t("about.hero.paragraph3")}
           </p>
           <p
             className={clsx("mt-16 text-3xl text-slate-700", mrDafoe.className)}
@@ -112,7 +101,7 @@ export function AboutHero() {
       </Container>
       <div className="bg-picton-blue-25 relative h-96 w-full md:h-[600px] lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/3">
         <Image
-          src={"/images/about-hero.png"}
+          src={"/images/about-hero.jpg"}
           alt=""
           className="absolute inset-0 h-full w-full object-cover object-top"
         />

@@ -1,39 +1,26 @@
-import Link from "next/link";
-import { Image } from "@/components/Image";
 import clsx from "clsx";
+import Link from "next/link";
 import { Button } from "./Button";
 import { Container } from "./Container";
-import {
-  DribbbleIcon,
-  InstagramIcon,
-  TwitterIcon,
-  LinkedInIcon,
-  GitHubIcon,
-  EmailIcon,
-} from "./SocialIcons";
-
-const links = [
-  { label: "Home", href: "/" },
-  { label: "About", href: "/about" },
-  { label: "Work", href: "/work" },
-  { label: "Contact", href: "/contact" },
-];
+import { EmailIcon, InstagramIcon, LinkedInIcon } from "./SocialIcons";
+import { getI18n } from "@/locale/server";
+import { LocaleSwitcher } from "./LocaleSwitcher";
 
 const socialLinks = [
   {
-    label: "Email us",
+    label: "Email",
     icon: EmailIcon,
-    href: "#",
+    href: "contact@otopio.net",
   },
   {
     label: "Instagram",
     icon: InstagramIcon,
-    href: "#",
+    href: "https://www.instagram.com/otopionet/",
   },
   {
     label: "LinkedIn",
     icon: LinkedInIcon,
-    href: "#",
+    href: "https://www.linkedin.com/company/otopio/",
   },
 ];
 
@@ -57,7 +44,18 @@ function SocialLink({
   );
 }
 
-export function Footer({ newsletter = false }) {
+export async function Footer({
+  newsletter = false,
+  links,
+}: {
+  newsletter?: boolean;
+  links: {
+    label: string;
+    href: string;
+  }[];
+}) {
+  const t = await getI18n();
+
   return (
     <section className={clsx(newsletter && "pt-12 sm:pt-16")}>
       <footer className="overflow-hidden bg-slate-900 pb-8 pt-20 sm:pb-12 sm:pt-24 lg:pt-32">
@@ -65,11 +63,15 @@ export function Footer({ newsletter = false }) {
           <div className="mx-auto grid max-w-xl items-center gap-5 lg:mx-0 lg:max-w-none lg:grid-cols-12 lg:gap-12 xl:gap-20">
             <div className="lg:col-span-7">
               <h3 className="text-center font-display text-4xl font-semibold text-white sm:text-5xl lg:max-w-xl lg:text-left">
-                Lets make something great together
+                {t("footer.title")}
               </h3>
               <div className="hidden lg:block">
-                <Button href="#" variant="primaryOnDark" className="mt-12">
-                  Book a call
+                <Button
+                  href="/contact"
+                  variant="primaryOnDark"
+                  className="mt-12"
+                >
+                  {t("common.callToAction")}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -86,27 +88,9 @@ export function Footer({ newsletter = false }) {
               </div>
             </div>
             <div className="flex flex-col items-center lg:col-span-5 lg:items-start">
-              <p className="text-center text-lg text-slate-50 lg:max-w-sm lg:text-left">
-                Crafting digital symphonies, one pixel at a time with Otopio.
+              <p className="text-center text-base text-slate-50 lg:text-left">
+                {t("common.description")}
               </p>
-              <Link
-                href="/contact"
-                className="mt-10 inline-flex items-center justify-center gap-x-2.5 rounded-full bg-white px-7 py-3 text-md font-semibold leading-none text-slate-700 duration-200 ease-in-out hover:bg-sky-50 lg:hidden"
-              >
-                Book a call
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="h-5 w-5"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </Link>
               <div className="mt-16 grid w-full max-w-sm grid-cols-2 gap-3.5 sm:max-w-none sm:grid-cols-3 lg:mt-8 lg:gap-2.5 xl:gap-3.5">
                 {socialLinks.map((socialLink) => (
                   <SocialLink
@@ -122,6 +106,9 @@ export function Footer({ newsletter = false }) {
           <hr className="mb-6 mt-12 h-px w-full border-slate-600/90 sm:mb-10 sm:mt-16" />
           <div className="flex flex-col items-center justify-between md:flex-row">
             <div className="flex items-center gap-6">
+              <div className="bg-white rounded-full p-1">
+                <LocaleSwitcher />
+              </div>
               {links.map((link, index) => (
                 <Link
                   key={`footer-link-${index}`}
@@ -133,7 +120,7 @@ export function Footer({ newsletter = false }) {
               ))}
             </div>
             <p className="mt-8 text-base text-slate-400/90 md:mt-0">
-              © 2023 Otopio. All rights reserved.
+              © {new Date().getFullYear()} Otopio. {t("footer.rights")}
             </p>
           </div>
         </Container>

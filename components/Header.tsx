@@ -1,18 +1,15 @@
+"use client";
+
 import { Fragment } from "react";
 import Link from "next/link";
 import { Image } from "@/components/Image";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 import clsx from "clsx";
-import { Menu, Popover, Transition, Disclosure } from "@headlessui/react";
+import { Popover, Transition } from "@headlessui/react";
 import { Button } from "./Button";
 import { Container } from "./Container";
-
-const links = [
-  { label: "Home", href: "/" },
-  { label: "Work", href: "/work" },
-  { label: "About", href: "/about" },
-  { label: "Contact", href: "/contact" },
-];
+import { useI18n } from "@/locale/client";
+import { LocaleSwitcher } from "./LocaleSwitcher";
 
 function MenuIcon({ open }: { open: boolean }) {
   return (
@@ -44,8 +41,13 @@ function MenuIcon({ open }: { open: boolean }) {
     </span>
   );
 }
-export function Header() {
-  const router = useRouter();
+export function Header({
+  links,
+}: {
+  links: { label: string; href: string }[];
+}) {
+  const pathname = usePathname();
+  const t = useI18n();
 
   function MobileNav() {
     return (
@@ -130,7 +132,7 @@ export function Header() {
                 href={link.href}
                 className={clsx(
                   'relative duration-200 after:absolute after:left-1/2 after:-bottom-2.5 after:h-0.5 after:w-4 after:-translate-x-1/2 after:rounded-full after:bg-slate-900 after:opacity-0 after:content-[""]',
-                  router.pathname == link.href
+                  pathname == link.href
                     ? "font-semibold text-slate-900 after:opacity-100"
                     : "font-medium text-slate-700 hover:text-slate-900 hover:after:opacity-25"
                 )}
@@ -140,7 +142,10 @@ export function Header() {
             ))}
           </div>
           <div className="flex items-center">
-            <Button href="/contact">Book a call</Button>
+            <Button href="/contact" className="hidden sm:flex">
+              {t("common.callToAction")}
+            </Button>
+            <LocaleSwitcher />
             <div className="ml-4 md:hidden">
               <MobileNav />
             </div>

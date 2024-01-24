@@ -1,4 +1,5 @@
 import { Image } from "@/components/Image";
+import { getI18n } from "@/locale/server";
 import clsx from "clsx";
 
 const icons = [
@@ -43,7 +44,7 @@ const icons = [
     name: "Firebase",
     icon: "/images/logos/icons/firebase.png",
   },
-  
+
   {
     name: "AI",
     icon: "/images/logos/icons/ai.png",
@@ -71,7 +72,7 @@ function getTopMargin(index: number) {
   }
 }
 
-function StackIcon({
+async function StackIcon({
   icon,
   alt,
   index,
@@ -93,7 +94,8 @@ function StackIcon({
   );
 }
 
-export function StackIconsRow() {
+export async function StackIconsRow() {
+  const t = await getI18n();
   return (
     <section className="relative flex justify-center gap-x-12 overflow-x-clip bg-white pt-16 sm:gap-x-16 lg:pt-12 lg:pb-14">
       <div className="absolute inset-y-0 left-0 h-full w-64 bg-gradient-to-r from-white/50 to-white/0" />
@@ -113,7 +115,7 @@ export function StackIconsRow() {
           ></path>
         </svg>
         <span className="inline-block w-48 rotate-6 transform font-writing text-[22px] tracking-wide text-slate-600 lg:text-2xl">
-          The tools we use on our day-to-day
+          {t("home.stack.title")}
         </span>
       </div>
       {icons.map((item, index) => (

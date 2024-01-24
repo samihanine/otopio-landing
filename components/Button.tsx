@@ -1,5 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import clsx from "clsx";
+import { useFormStatus } from "react-dom";
+import { LoadingSpinner } from "./LoadingSpinner";
 
 const variantStyles = {
   primaryClassName: "bg-slate-900 text-white hover:bg-sky-800",
@@ -19,6 +23,7 @@ export function Button({
   variant = "primary",
   className,
   href,
+  children,
   ...props
 }: ButtonProps) {
   className = clsx(
@@ -28,8 +33,12 @@ export function Button({
   );
 
   return href ? (
-    <Link href={href} className={className} {...props} />
+    <Link href={href} className={className} {...props}>
+      {children}
+    </Link>
   ) : (
-    <button className={className} {...props} />
+    <button className={className} {...props}>
+      {children}
+    </button>
   );
 }

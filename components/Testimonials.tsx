@@ -1,130 +1,23 @@
+"use client";
+
 import { Image } from "@/components/Image";
 import { useEffect, useState } from "react";
 import { Container } from "./Container";
-import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import { Testimonial } from "@/data/testimonials";
+import { Navigation } from "swiper/modules";
+import { useI18n } from "@/locale/client";
 
-const testimonials = [
-  {
-    headline: "“Highly skilled and professional”",
-    content:
-      "Sami’s grasp over complex technologies ensured our project was not only cutting-edge but also future-ready. Kudos to Otopio!",
-    author: {
-      name: "Katy Jackson",
-      role: "Designer at Mailgorilla",
-      image: "/images/avatars/avatar-1.png",
-    },
-  },
-  {
-    headline: "“Beyond Expectations!”",
-    content:
-      "I had a vision, and Otopio not only realized it but elevated it to levels I hadn’t imagined. An exceptional team with an unmatched work ethic.",
-    author: {
-      name: "Sean Murphy",
-      role: "Founder of North Agency",
-      image: "/images/avatars/avatar-2.png",
-    },
-  },
-  {
-    headline: "“Seamless Collaboration”",
-    content:
-      "Working with Otopio felt like having an extended team. Their communication, expertise, and dedication were evident in every phase.",
-    author: {
-      name: "Elaine Foster",
-      role: "CEO of Wakatech",
-      image: "/images/avatars/avatar-3.png",
-    },
-  },
-  {
-    headline: "“Reliable & Efficient”",
-    content:
-      "Every milestone was hit on time, every challenge tackled with enthusiasm. Otopio stands for reliability.",
-    author: {
-      name: "Jeff Bick",
-      role: "Developer at Bad Inc.",
-      image: "/images/avatars/avatar-4.png",
-    },
-  },
-  {
-    headline: "“A True Partner”",
-    content:
-      "Otopio's team felt like an extension of our own. Some minor communication hiccups, but overall a solid experience.",
-    author: {
-      name: "Jason Cosmo",
-      role: "CEO of Eastern Digital",
-      image: "/images/avatars/avatar-5.png",
-    },
-  },
-  {
-    headline: "“Quality on a Budget”",
-    content:
-      "We didn't have the biggest budget, but Otopio ensured we got bang for our buck. The end result was impressive, especially given our constraints.",
-    author: {
-      name: "Katy Jackson",
-      role: "Designer at Mailgorilla",
-      image: "/images/avatars/avatar-1.png",
-    },
-  },
-  {
-    headline: "“ A Balanced Perspective”",
-    content:
-      "In today's digital age, it's rare to find an agency that understands both tech depth and design aesthetic. Otopio bridges that gap beautifully.",
-    author: {
-      name: "Sean Murphy",
-      role: "Founder of North Agency",
-      image: "/images/avatars/avatar-2.png",
-    },
-  },
-  {
-    headline: "“A Team Worth Every Penny”",
-    content:
-      "Engaging Otopio was an investment, and it paid off. From the beginning, the collaboration was smooth, and the commitment was undeniable. A couple of minor issues arose, but they were handled professionally. Highly recommend.",
-    author: {
-      name: "Elaine Foster",
-      role: "CEO of Wakatech",
-      image: "/images/avatars/avatar-3.png",
-    },
-  },
-  {
-    headline: "“Exceptional Service”",
-    content:
-      "I wasn't sure at first given some budget constraints, but Otopio proved they can deliver quality without breaking the bank.",
-    author: {
-      name: "Jeff Bick",
-      role: "Developer at Bad Inc.",
-      image: "/images/avatars/avatar-4.png",
-    },
-  },
-  {
-    headline: "“Good Balance of Tech & Design”",
-    content:
-      "Otopio offers a balanced perspective, understanding both the technological and design aspects. A rare find.",
-    author: {
-      name: "Jason Cosmo",
-      role: "CEO of Eastern Digital",
-      image: "/images/avatars/avatar-5.png",
-    },
-  },
-];
-
-const companies = [
-  { name: "Zendesk", logo: "/images/logos/zendesk.svg" },
-  { name: "Intercom", logo: "/images/logos/intercom.svg" },
-  { name: "Coursera", logo: "/images/logos/coursera.svg" },
-  { name: "Unbounce", logo: "/images/logos/unbounce.svg" },
-  { name: "Prismic", logo: "/images/logos/prismic.svg" },
-  { name: "Codesee", logo: "/images/logos/codesee.svg" },
-  { name: "Booqable", logo: "/images/logos/booqable.svg" },
-  { name: "Tapcart", logo: "/images/logos/tapcart.svg" },
-  { name: "Mailchimp", logo: "/images/logos/mailchimp.svg" },
-  { name: "Instagram", logo: "/images/logos/instagram.svg" },
-];
-
-export function Testimonials() {
+export function Testimonials({
+  testimonials,
+}: {
+  testimonials: Testimonial[];
+}) {
   let testimonialsCount = parseFloat(testimonials.length.toString());
   let [swiperIndex, setSwiperIndex] = useState(1);
   let [carouselProgress, setCarouselProgress] = useState(15);
+  const t = useI18n();
 
   useEffect(() => {
     let screenWidth = window.innerWidth;
@@ -139,7 +32,7 @@ export function Testimonials() {
         <div className="mx-auto grid max-w-xl gap-6 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:gap-16">
           <div>
             <h2 className="font-display text-4xl font-semibold text-slate-900 sm:text-5xl">
-              Here’s what past clients are saying about Otopio
+              {t("home.testimonials.title")}
             </h2>
             <div className="mt-10 hidden h-[7px] w-full rounded-full bg-slate-200 lg:mt-16 lg:block">
               <div
@@ -150,8 +43,7 @@ export function Testimonials() {
           </div>
           <div className="lg:ml-auto lg:max-w-sm">
             <p className="text-lg text-slate-700">
-            Experience speaks, but our clients shout louder.
-            Their feedback underscores our dedication and shared successes.
+              {t("home.testimonials.subtitle")}
             </p>
             <div className="mt-14 flex gap-2.5 lg:mt-12">
               <button className="carousel-prev inline-flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-sm shadow-sky-200/75 ring-1 ring-slate-200/60 duration-200 hover:bg-sky-50/50">
@@ -259,57 +151,6 @@ export function Testimonials() {
         </Container>
         <div className="absolute inset-y-0 right-0 z-10 hidden bg-gradient-to-r from-slate-50/0 to-slate-50/80 2xl:block 2xl:w-64"></div>
       </div>
-      <Container className="mt-16 sm:mt-20">
-        {/* <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-none">
-          <h3 className="relative max-w-xs font-writing text-[27px] tracking-wide text-slate-600">
-            These are some <span className="text-sky-700">companies</span> we
-            have worked with
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="124"
-              height="101"
-              viewBox="0 0 124 101"
-              fill="none"
-              className="absolute -right-1 top-0 hidden h-auto w-28 translate-x-full text-slate-600 sm:block"
-            >
-              <g clipPath="url(#clip0_46_948)">
-                <path
-                  d="M13.1589 30.5605C25.87 29.4569 33.2606 30.8618 39.6091 42.3857C43.633 49.6899 46.4183 59.3311 46.3238 67.7073C46.2691 72.5626 42.2892 65.9515 41.6704 64.6273C34.5099 49.3076 36.8933 29.794 50.6002 18.9635C59.5333 11.9051 68.6204 16.8471 75.1399 24.5336C85.0823 36.2557 86.6911 53.2905 83.9281 67.8963C83.0089 72.755 81.0734 87.6248 74.4798 88.4661C69.0168 89.1631 70.7054 79.5464 71.3591 76.6577C72.2912 72.5391 74.6187 63.7152 78.7577 61.7025C84.694 58.8161 90.7263 68.0342 92.566 72.2364C96.0595 80.2162 97.0519 90.0519 98.5548 98.5871C98.6653 99.2155 96.1022 96.1168 95.6489 95.5787C94.3499 94.0379 92.4806 93.0934 91.3132 91.4383C90.4471 90.2104 87.3106 82.7634 91.0886 86.4645C92.4201 87.7691 96.7405 98.7863 97.1778 98.7038C98.9644 98.3683 102.67 87.2815 103.339 85.227C104.949 80.2795 94.9776 86.3346 93.782 87.3542"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                />
-              </g>
-              <defs>
-                <clipPath id="clip0_46_948">
-                  <rect
-                    width="106"
-                    height="67"
-                    fill="white"
-                    transform="matrix(0.932551 0.361039 0.361039 -0.932551 0 62.481)"
-                  />
-                </clipPath>
-              </defs>
-            </svg>
-          </h3>
-
-          <div className="mt-12 grid grid-cols-2  gap-2.5 sm:mt-14 lg:mt-20  lg:grid-cols-5">
-            {companies.map((company) => (
-              <div
-                key={company.name}
-                className="flex items-center justify-center rounded-xl border border-slate-200/90 py-7 shadow-sm shadow-sky-100/50"
-              >
-                <Image
-                  src={company.logo}
-                  alt={company.name}
-                  unoptimized
-                  className="h-auto w-32 sm:w-36"
-                />
-              </div>
-            ))}
-          </div>
-        </div> */}
-      </Container>
     </section>
   );
 }
