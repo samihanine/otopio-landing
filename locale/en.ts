@@ -2,7 +2,7 @@ export default {
   common: {
     callToAction: "Book a call with us",
     description:
-      "Otopio specializes in the creation of customized websites and applications, with strong expertise in UI/UX design, IT development and graphic identity. We also offer social network management services, for a consistent and impactful online presence.",
+      "Otopio is a web agency specializes in the creation of customized websites and applications, with strong expertise in UI/UX design, IT development and graphic identity. We also offer social network management services, for a consistent and impactful online presence.",
     title: "Otopio - Web development agency",
   },
   header: {

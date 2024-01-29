@@ -2,7 +2,7 @@ export default {
   common: {
     callToAction: "Prendre un rendez-vous",
     description:
-      "Otopio est spécialisée dans la création de sites web et d'applications sur mesure, avec une forte expertise en design UI/UX, développement informatique et identité graphique. Nous offrons également des services de gestion des réseaux sociaux, pour une présence en ligne cohérente et impactante.",
+      "Otopio est une agence web spécialisée dans la création de sites web et d'applications sur mesure, avec une forte expertise en design UI/UX, développement informatique et identité graphique. Nous offrons également des services de gestion des réseaux sociaux, pour une présence en ligne cohérente et impactante.",
     title: "Otopio - Agence de développement web",
   },
   header: {
@@ -18,7 +18,7 @@ export default {
       startTitle: "Nous créons",
       endTitle: "le site ou l'application qu'il vous faut !",
       subtitle:
-        "Chez Otopio, nous excellons dans l'art de transformer vos idées en sites web dynamiques et sur mesure dynamiques et sur mesure qui incarnent l'essence de votre marque. Notre deuxième dans la création d'applications web sur mesure et de solutions SaaS. solutions SaaS, garantissant une présence numérique holistique adaptée à vos besoins.",
+        "Nous sommes Otopio, une agence web spécialisée dans la création de sites web et d'applications sur mesure, avec une forte expertise en design UI/UX, développement informatique et identité graphique. Nous offrons également des services de gestion des réseaux sociaux, pour une présence en ligne cohérente et impactante.",
       pixel: "Fait avec amour",
       years: "années d'expérience",
     },
