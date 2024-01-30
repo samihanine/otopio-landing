@@ -6,6 +6,7 @@ import { getLinks } from "@/data/links";
 import Providers from "@/components/Providers";
 import { getI18n } from "@/locale/server";
 import NextTopLoader from "nextjs-toploader";
+import { Analytics } from "@vercel/analytics/react";
 
 export async function generateMetadata(_: { params: { lang: string } }) {
   const t = await getI18n();
@@ -38,7 +39,7 @@ export default async function RootLayout({
           <>
             <NextTopLoader color="#000000" />
             <Header links={links} />
-
+            <Analytics />
             <main>{children}</main>
             <Footer links={links} />
           </>
