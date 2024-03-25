@@ -10,13 +10,14 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
     fs.appendFile(filePath, newLine, (err) => {
       if (err) {
+        console.error("Failed to append data", err);
         res.status(500).json({ message: "Failed to save data" });
-        return;
+      } else {
+        res.status(200).json({ message: "Data added successfully" });
       }
-      res.status(200).json({ message: "Data added successfully" });
     });
   } else {
     res.setHeader("Allow", ["POST"]);
-    res.status(405).end(`Method ${req.method} Not Allowed`);
+    res.status(405).json({ message: `Method ${req.method} Not Allowed` });
   }
 }
