@@ -14,6 +14,14 @@ export async function getProjects() {
 
   return [
     {
+      link: "https://voolta.vercel.app/",
+      title: "Voolta",
+      date: "2023-03-01",
+      tags: ["Web App", "Landing Pages"],
+      thumbnail: "/images/work/voolta.jpeg",
+      description: t("projects.voolta"),
+    },
+    {
       link: "https://alter-go.vercel.app/",
       title: "Alter&Go",
       date: "2023-03-01",
@@ -25,17 +33,25 @@ export async function getProjects() {
       link: "https://topscale.ai/",
       title: "Topscale",
       date: "2023-08-15",
-      tags: ["Landing Pages"],
+      tags: ["Web App", "Landing Pages"],
       thumbnail: "/images/work/topscale.png",
       description: t("projects.topscaleai"),
     },
     {
-      link: "https://emergenceentreprise.com/",
-      title: "Emergence Entreprise",
-      date: "2023-08-01",
+      link: "https://obeobiogas.com",
+      title: "Obeo Biogas",
+      date: "2023-03-01",
       tags: ["Landing Pages"],
-      thumbnail: "/images/work/emergence.png",
-      description: t("projects.emergence"),
+      thumbnail: "/images/work/obeobiogas.png",
+      description: t("projects.obeobiogas"),
+    },
+    {
+      link: "https://leapyearlearning.ai/",
+      title: "Leap Year Learning",
+      date: "2023-03-01",
+      tags: ["Landing Pages"],
+      thumbnail: "/images/work/lyl.png",
+      description: t("projects.leapyearlearning"),
     },
     {
       link: "https://megascale.ai",
@@ -78,28 +94,12 @@ export async function getProjects() {
       description: t("projects.reacttutorials"),
     },
     {
-      link: "https://leapyearlearning.ai/",
-      title: "Leap Year Learning",
-      date: "2023-03-01",
-      tags: ["Landing Pages"],
-      thumbnail: "/images/work/lyl.png",
-      description: t("projects.leapyearlearning"),
-    },
-    {
       link: "https://welcome.senzu.app/fr_fr/",
       title: "Senzu Printer",
       date: "2023-03-01",
       tags: ["Web App"],
       thumbnail: "/images/work/printer.png",
       description: t("projects.senzuprinter"),
-    },
-    {
-      link: "https://obeobiogas.com",
-      title: "Obeo Biogas",
-      date: "2023-03-01",
-      tags: ["Landing Pages"],
-      thumbnail: "/images/work/obeobiogas.png",
-      description: t("projects.obeobiogas"),
     },
   ] as Project[];
 }

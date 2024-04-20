@@ -123,6 +123,8 @@ export default {
       "Senzu Printer is a web application that allows printing of shipping labels for connected products. It is created using Electron and React, and is designed for use by printing partners of the company.",
     obeobiogas:
       "Obeo Biogas is a company that offers biogas solutions. We designed a landing page to showcase their services and attract new clients.",
+    voolta:
+      "Voolta is a private chauffeur agency in Lyon. We created their booking platform, which allows you to book and pay for trips directly online.",
   },
   contact: {
     metaTitle: "Contact us | Otopio",

@@ -103,7 +103,8 @@ export default {
     subtitle:
       "Plongez dans ma gamme diversifiée de projets, mettant en valeur mon expertise en développement logiciel, en design et mon dévouement à offrir des résultats exceptionnels.",
     view: "Voir le projet",
-
+    voolta:
+      "Voolta est une agence de chauffeurs privés à Lyon. Nous avons créé leur plateforme de réservation, qui vous permet de réserver et de payer vos trajets directement en ligne.",
     alteretgo:
       "Alter&Go est une entreprise qui propose des services de recrutement. Nous avons conçu une page d'atterrissage pour présenter leurs services et attirer de nouveaux clients",
     topscaleai:
