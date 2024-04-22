@@ -28,6 +28,7 @@ export default async function Contact() {
       const design = formData.get("design");
       const app = formData.get("app");
       const other = formData.get("other");
+      const robot = formData.get("robot");
 
       let services = "";
       if (web) services += "Web, ";
@@ -35,9 +36,11 @@ export default async function Contact() {
       if (app) services += "App, ";
       if (other) services += "Other, ";
 
-      await axios.post(process.env.DISCORD_WEBHOOK_URL || "", {
-        content: `-----------------------------\n\nNew message from the website:\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nServices: ${services}\nMessage:\n"""\n${message}\n"""\n\n@everyone\n\n-----------------------------`,
-      });
+      if (!robot) {
+        await axios.post(process.env.DISCORD_WEBHOOK_URL || "", {
+          content: `-----------------------------\n\nNew message from the website:\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nServices: ${services}\nMessage:\n"""\n${message}\n"""\n\n@everyone\n\n-----------------------------`,
+        });
+      }
     } catch (error) {
       throw new Error("Impossible d'envoyer le message à Discord.");
     }
@@ -339,6 +342,13 @@ export default async function Contact() {
                               </label>
                             </div>
                           </div>
+
+                          <input
+                            id="robot"
+                            name="robot"
+                            type="checkbox"
+                            className="hidden"
+                          />
                         </div>
                       </div>
                     </fieldset>
