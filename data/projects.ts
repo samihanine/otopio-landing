@@ -22,6 +22,14 @@ export async function getProjects() {
       description: t("projects.voolta"),
     },
     {
+      link: "https://www.sockdatingsim.com/",
+      title: "Sock Dating Sim",
+      date: "2023-03-01",
+      tags: ["Web App", "Landing Pages"],
+      thumbnail: "/images/work/sock-dating-sim.png",
+      description: t("projects.voolta"),
+    },
+    {
       link: "https://alter-go.vercel.app/",
       title: "Alter&Go",
       date: "2023-03-01",
