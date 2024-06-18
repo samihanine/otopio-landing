@@ -300,11 +300,11 @@ export async function Experience() {
                     </svg>
                   </button>
                 </DownloadOffer>
-                <div className="absolute bottom-0 gap-5 px-6 py-8 text-center translate-x-1/2 right-1/2 translate-y-3/4 rounded-2xl bg-sky-700/90 backdrop-blur-sm sm:translate-y-1/2 sm:gap-12 sm:p-10 lg:right-20 lg:translate-x-0">
+                <DownloadOffer className="absolute bottom-0 cursor-pointer gap-5 px-6 py-8 text-center translate-x-1/2 right-1/2 translate-y-3/4 rounded-2xl bg-sky-700/90 backdrop-blur-sm sm:translate-y-1/2 sm:gap-12 sm:p-10 lg:right-20 lg:translate-x-0">
                   <p className="w-fit text-3xl font-extrabold text-white sm:text-2xl">
                     {t("home.experience.offer")}
                   </p>
-                </div>
+                </DownloadOffer>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="82"

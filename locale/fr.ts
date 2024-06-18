@@ -147,7 +147,7 @@ export default {
       title: "Remplissez le formulaire ci-dessous pour nous contacter",
       optional: "Optionnel",
       subtitle:
-        "Plongez dans l'ère numérique avec Otopio. Nous ne sommes qu'à un message",
+        "Plongez dans l'ère numérique avec Otopio. Nous ne sommes qu'à un message de vous.",
       name: {
         label: "Nom",
         placeholder: "Votre nom",
