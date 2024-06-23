@@ -103,6 +103,7 @@ export default {
     subtitle:
       "Plongez dans ma gamme diversifiée de projets, mettant en valeur mon expertise en développement logiciel, en design et mon dévouement à offrir des résultats exceptionnels.",
     view: "Voir le projet",
+    clickmtl: "Click MTL est une agence de photographie et de vidéo basée à Montréal. Nous avons créé un site web qui reflète leur identité visuelle.",
     voolta:
       "Voolta est une agence de chauffeurs privés à Lyon. Nous avons créé leur plateforme de réservation, qui vous permet de réserver et de payer vos trajets directement en ligne.",
     alteretgo:

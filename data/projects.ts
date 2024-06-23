@@ -14,6 +14,14 @@ export async function getProjects() {
 
   return [
     {
+      link: "https://clickmtl.vercel.app/",
+      title: "CLICK",
+      date: "2023-03-01",
+      tags: ["Landing Pages"],
+      thumbnail: "/images/work/click.png",
+      description: t("projects.clickmtl"),
+    },
+    {
       link: "https://voolta.vercel.app/",
       title: "Voolta",
       date: "2023-03-01",
