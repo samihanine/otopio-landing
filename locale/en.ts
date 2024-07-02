@@ -104,6 +104,7 @@ export default {
     view: "View Work",
     clickmtl: "Click MTL is a photography and video agency based in Montreal. We created a website that reflects their visual identity.",
     immovia: "Immovia, is a platform that helps new buyers find their dream home. We are responsible for the design and development of the platform.",
+    sockdatingsim: 'Sock Dating Sim is a dating simulation game. We created a landing page to showcase the game and attract new players.',
     alteretgo:
       "Alter&Go is a company that offers recruitment services. We designed a landing page to showcase their services and attract new clients.",
     topscaleai:

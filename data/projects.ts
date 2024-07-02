@@ -43,7 +43,7 @@ export async function getProjects() {
       date: "2023-03-01",
       tags: ["Web App", "Landing Pages"],
       thumbnail: "/images/work/sockdatingsim.png",
-      description: t("projects.voolta"),
+      description: t("projects.sockdatingsim"),
     },
     {
       link: "https://alter-go.vercel.app/",

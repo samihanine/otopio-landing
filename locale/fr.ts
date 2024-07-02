@@ -107,7 +107,8 @@ export default {
     voolta:
       "Voolta est une agence de chauffeurs privés à Lyon. Nous avons créé leur plateforme de réservation, qui vous permet de réserver et de payer vos trajets directement en ligne.",
       immovia: "Immovia, est une plateforme qui aide les nouveaux acheteurs à trouver la maison de leurs rêves. Nous sommes responsables de la conception et du développement de la plateforme.",
-    alteretgo:
+      sockdatingsim: 'Sock Dating Sim est un jeu de simulation de rencontres. Nous avons créé le site web du jeu, qui permet aux joueurs de télécharger le jeu et de consulter les mises à jour.',
+      alteretgo:
       "Alter&Go est une entreprise qui propose des services de recrutement. Nous avons conçu une page d'atterrissage pour présenter leurs services et attirer de nouveaux clients",
     topscaleai:
       "TopScale est un outil alimenté par l'IA qui rationalise la gestion des médias sociaux. Nous avons conçu une page d'atterrissage mettant en avant ses principales caractéristiques et invitant les utilisateurs à s'inscrire sur la liste d'attente",
