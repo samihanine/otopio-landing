@@ -103,6 +103,7 @@ export default {
       "Dive into my diverse range of projects, showcasing my expertise in software development, design, and dedication to delivering exceptional results.",
     view: "View Work",
     clickmtl: "Click MTL is a photography and video agency based in Montreal. We created a website that reflects their visual identity.",
+    immovia: "Immovia, is a platform that helps new buyers find their dream home. We are responsible for the design and development of the platform.",
     alteretgo:
       "Alter&Go is a company that offers recruitment services. We designed a landing page to showcase their services and attract new clients.",
     topscaleai:

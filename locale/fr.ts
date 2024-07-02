@@ -106,6 +106,7 @@ export default {
     clickmtl: "Click MTL est une agence de photographie et de vidéo basée à Montréal. Nous avons créé un site web qui reflète leur identité visuelle.",
     voolta:
       "Voolta est une agence de chauffeurs privés à Lyon. Nous avons créé leur plateforme de réservation, qui vous permet de réserver et de payer vos trajets directement en ligne.",
+      immovia: "Immovia, est une plateforme qui aide les nouveaux acheteurs à trouver la maison de leurs rêves. Nous sommes responsables de la conception et du développement de la plateforme.",
     alteretgo:
       "Alter&Go est une entreprise qui propose des services de recrutement. Nous avons conçu une page d'atterrissage pour présenter leurs services et attirer de nouveaux clients",
     topscaleai:
