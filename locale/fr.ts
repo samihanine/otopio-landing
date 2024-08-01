@@ -103,12 +103,15 @@ export default {
     subtitle:
       "Plongez dans ma gamme diversifiée de projets, mettant en valeur mon expertise en développement logiciel, en design et mon dévouement à offrir des résultats exceptionnels.",
     view: "Voir le projet",
-    clickmtl: "Click MTL est une agence de photographie et de vidéo basée à Montréal. Nous avons créé un site web qui reflète leur identité visuelle.",
+    clickmtl:
+      "Click MTL est une agence de photographie et de vidéo basée à Montréal. Nous avons créé un site web qui reflète leur identité visuelle.",
     voolta:
       "Voolta est une agence de chauffeurs privés à Lyon. Nous avons créé leur plateforme de réservation, qui vous permet de réserver et de payer vos trajets directement en ligne.",
-      immovia: "Immovia, est une plateforme qui aide les nouveaux acheteurs à trouver la maison de leurs rêves. Nous sommes responsables de la conception et du développement de la plateforme.",
-      sockdatingsim: 'Sock Dating Sim est un jeu de simulation de rencontres. Nous avons créé le site web du jeu, qui permet aux joueurs de télécharger le jeu et de consulter les mises à jour.',
-      alteretgo:
+    immovia:
+      "Immovia, est une plateforme qui aide les nouveaux acheteurs à trouver la maison de leurs rêves. Nous sommes responsables de la conception et du développement de la plateforme.",
+    sockdatingsim:
+      "Sock Dating Sim est un jeu de simulation de rencontres. Nous avons créé le site web du jeu, qui permet aux joueurs de télécharger le jeu et de consulter les mises à jour.",
+    alteretgo:
       "Alter&Go est une entreprise qui propose des services de recrutement. Nous avons conçu une page d'atterrissage pour présenter leurs services et attirer de nouveaux clients",
     topscaleai:
       "TopScale est un outil alimenté par l'IA qui rationalise la gestion des médias sociaux. Nous avons conçu une page d'atterrissage mettant en avant ses principales caractéristiques et invitant les utilisateurs à s'inscrire sur la liste d'attente",
@@ -130,6 +133,8 @@ export default {
       "Senzu Printer est une application web qui permet d'imprimer des étiquettes d'expédition pour les produits connectés. Elle est créée à l'aide d'Electron et de React, et est conçue pour être utilisée par les partenaires d'impression de l'entreprise",
     obeobiogas:
       "Obeo Biogas est une entreprise qui propose des solutions de biogaz. Nous avons conçu une page d'atterrissage pour présenter leurs services et attirer de nouveaux clients",
+    boxingclub:
+      "Boxing Club est une salle de sport qui propose des cours de boxe. Nous avons créé un site web pour eux, qui permet aux utilisateurs de consulter les horaires des cours et de s'inscrire en ligne",
   },
   contact: {
     metaTitle: "Nous contacter | Otopio",

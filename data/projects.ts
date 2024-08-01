@@ -30,6 +30,14 @@ export async function getProjects() {
       description: t("projects.voolta"),
     },
     {
+      link: "https://www.boxingclubcroixrousse.fr",
+      title: "Boxing Club Croix Rousse",
+      date: "2023-03-01",
+      tags: ["Landing Pages"],
+      thumbnail: "/images/work/boxingclub.png",
+      description: t("projects.boxingclub"),
+    },
+    {
       link: "https://www.immovia.ca/",
       title: "Immovia",
       date: "2023-03-01",

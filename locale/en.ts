@@ -102,9 +102,12 @@ export default {
     subtitle:
       "Dive into my diverse range of projects, showcasing my expertise in software development, design, and dedication to delivering exceptional results.",
     view: "View Work",
-    clickmtl: "Click MTL is a photography and video agency based in Montreal. We created a website that reflects their visual identity.",
-    immovia: "Immovia, is a platform that helps new buyers find their dream home. We are responsible for the design and development of the platform.",
-    sockdatingsim: 'Sock Dating Sim is a dating simulation game. We created a landing page to showcase the game and attract new players.',
+    clickmtl:
+      "Click MTL is a photography and video agency based in Montreal. We created a website that reflects their visual identity.",
+    immovia:
+      "Immovia, is a platform that helps new buyers find their dream home. We are responsible for the design and development of the platform.",
+    sockdatingsim:
+      "Sock Dating Sim is a dating simulation game. We created a landing page to showcase the game and attract new players.",
     alteretgo:
       "Alter&Go is a company that offers recruitment services. We designed a landing page to showcase their services and attract new clients.",
     topscaleai:
@@ -128,6 +131,8 @@ export default {
       "Obeo Biogas is a company that offers biogas solutions. We designed a landing page to showcase their services and attract new clients.",
     voolta:
       "Voolta is a private chauffeur agency in Lyon. We created their booking platform, which allows you to book and pay for trips directly online.",
+    boxingclub:
+      "Boxing Club is a sports club that offers boxing classes. We created a website that allows you to book classes and pay online.",
   },
   contact: {
     metaTitle: "Contact us | Otopio",
