@@ -14,6 +14,14 @@ export async function getProjects() {
 
   return [
     {
+      link: "https://fireterminator.ca/",
+      title: "Fire Terminator",
+      date: "2024-03-01",
+      tags: ["Landing Pages"],
+      thumbnail: "/images/work/fireterminator.png",
+      description: t("projects.fireterminator"),
+    },
+    {
       link: "https://clickmtl.vercel.app/",
       title: "CLICK",
       date: "2023-03-01",
@@ -30,12 +38,12 @@ export async function getProjects() {
       description: t("projects.voolta"),
     },
     {
-      link: "https://www.boxingclubcroixrousse.fr",
-      title: "Boxing Club Croix Rousse",
+      link: "https://www.sockdatingsim.com/",
+      title: "Sock Dating Sim",
       date: "2023-03-01",
-      tags: ["Landing Pages"],
-      thumbnail: "/images/work/boxingclub.png",
-      description: t("projects.boxingclub"),
+      tags: ["Web App", "Landing Pages"],
+      thumbnail: "/images/work/sockdatingsim.png",
+      description: t("projects.sockdatingsim"),
     },
     {
       link: "https://www.immovia.ca/",
@@ -46,12 +54,12 @@ export async function getProjects() {
       description: t("projects.immovia"),
     },
     {
-      link: "https://www.sockdatingsim.com/",
-      title: "Sock Dating Sim",
+      link: "https://www.boxingclubcroixrousse.fr",
+      title: "Boxing Club Croix Rousse",
       date: "2023-03-01",
-      tags: ["Web App", "Landing Pages"],
-      thumbnail: "/images/work/sockdatingsim.png",
-      description: t("projects.sockdatingsim"),
+      tags: ["Landing Pages"],
+      thumbnail: "/images/work/boxingclub.png",
+      description: t("projects.boxingclub"),
     },
     {
       link: "https://alter-go.vercel.app/",

@@ -133,6 +133,8 @@ export default {
       "Voolta is a private chauffeur agency in Lyon. We created their booking platform, which allows you to book and pay for trips directly online.",
     boxingclub:
       "Boxing Club is a sports club that offers boxing classes. We created a website that allows you to book classes and pay online.",
+    fireterminator:
+      "Fire Terminator is a company that offers a plant-based solution that suppresses all types of fires in seconds. We designed their e-commerce website.",
   },
   contact: {
     metaTitle: "Contact us | Otopio",

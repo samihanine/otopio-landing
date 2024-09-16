@@ -135,6 +135,8 @@ export default {
       "Obeo Biogas est une entreprise qui propose des solutions de biogaz. Nous avons conçu une page d'atterrissage pour présenter leurs services et attirer de nouveaux clients",
     boxingclub:
       "Boxing Club est une salle de sport qui propose des cours de boxe. Nous avons créé un site web pour eux, qui permet aux utilisateurs de consulter les horaires des cours et de s'inscrire en ligne",
+    fireterminator:
+      "Fire Terminator est une entreprise qui propose une solution à base de plante permet la suppression de tous les types d’incendies en quelques secondes. Nous avons conçu leur site web e-commerce.",
   },
   contact: {
     metaTitle: "Nous contacter | Otopio",
