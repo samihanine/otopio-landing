@@ -99,6 +99,12 @@ export default {
   projects: {
     metaTitle: "Our projects | Otopio",
     title: "Our projects",
+    dansufoods:
+      "We created a website for Dansu Foods, a company that offers exceptional soy products, blending tradition and innovation for healthy and flavorful food.",
+    drivite:
+      "We designed Drivite's website and platform, enabling partner inspectors to perform vehicle inspections through an interactive form and generate detailed reports.",
+    tvlconseils:
+      "TVL Conseils is a consulting firm that offers services in finance and accounting. We designed a landing page to showcase their services and attract new clients.",
     subtitle:
       "Dive into my diverse range of projects, showcasing my expertise in software development, design, and dedication to delivering exceptional results.",
     view: "View Work",

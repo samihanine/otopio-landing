@@ -103,6 +103,12 @@ export default {
     subtitle:
       "Plongez dans ma gamme diversifiée de projets, mettant en valeur mon expertise en développement logiciel, en design et mon dévouement à offrir des résultats exceptionnels.",
     view: "Voir le projet",
+    drivite:
+      "Nous avons conçu le site web et la plateforme de Drivite, permettant aux inspecteurs partenaires de réaliser l'inspection technique d'un véhicule via un formulaire interactif et de générer des rapports détaillés.",
+    tvlconseils:
+      "TVL Conseils est une entreprise de conseil en gestion. Nous avons créé leur site web pour présenter leurs services et attirer de nouveaux clients.",
+    dansufoods:
+      "Dansu Foods est une entreprise qui propose des produits à base de soja exceptionnels, alliant tradition et innovation pour une alimentation saine et savoureuse.",
     clickmtl:
       "Click MTL est une agence de photographie et de vidéo basée à Montréal. Nous avons créé un site web qui reflète leur identité visuelle.",
     voolta:
@@ -112,27 +118,27 @@ export default {
     sockdatingsim:
       "Sock Dating Sim est un jeu de simulation de rencontres. Nous avons créé le site web du jeu, qui permet aux joueurs de télécharger le jeu et de consulter les mises à jour.",
     alteretgo:
-      "Alter&Go est une entreprise qui propose des services de recrutement. Nous avons conçu une page d'atterrissage pour présenter leurs services et attirer de nouveaux clients",
+      "Alter&Go est une entreprise qui propose des services de recrutement. Nous avons conçu un site web pour présenter leurs services et attirer de nouveaux clients",
     topscaleai:
-      "TopScale est un outil alimenté par l'IA qui rationalise la gestion des médias sociaux. Nous avons conçu une page d'atterrissage mettant en avant ses principales caractéristiques et invitant les utilisateurs à s'inscrire sur la liste d'attente",
+      "TopScale est un outil alimenté par l'IA qui rationalise la gestion des médias sociaux. Nous avons conçu un site web mettant en avant ses principales caractéristiques et invitant les utilisateurs à s'inscrire sur la liste d'attente",
     megascale:
       "Megascale est une plateforme qui vous permet de trouver et de contacter des prospects. Nous avons créé la plateforme de A à Z, du design au code",
     emergence:
-      "Emergence Entreprise est un cabinet de conseil qui aide les entreprises à se développer. Nous avons conçu une page d'atterrissage pour présenter leurs services et attirer de nouveaux clients",
+      "Emergence Entreprise est un cabinet de conseil qui aide les entreprises à se développer. Nous avons conçu un site web pour présenter leurs services et attirer de nouveaux clients",
     lightdph:
       "Light DPH est une application web qui vous permet de télécharger des documents sur la blockchain. Vous pouvez également consulter les documents téléchargés par d'autres utilisateurs.",
     aled: "ALED est une plateforme pour les étudiants. Elle permet aux utilisateurs d'échanger des documents et de poser des questions dans un forum. Elle donne également la possibilité de consulter son emploi du temps, ses notes et de discuter avec d'autres étudiants",
     cabinetlatif:
-      "Cabinet Latif est un cabinet d'expertise comptable. Nous avons conçu une page d'atterrissage pour présenter leurs services et attirer de nouveaux clients",
+      "Cabinet Latif est un cabinet d'expertise comptable. Nous avons conçu un site web pour présenter leurs services et attirer de nouveaux clients",
     reacttutorials:
       "C'est un site web que nous avons créé pour aider les gens à apprendre React. Il contient des tutoriels et des exemples.",
     leapyearlearning:
-      "Nous avons conçu une page d'atterrissage pour Leap Year Learning, une entreprise qui propose des cours en ligne sur l'IA",
+      "Nous avons conçu un site web pour Leap Year Learning, une entreprise qui propose des cours en ligne sur l'IA",
 
     senzuprinter:
       "Senzu Printer est une application web qui permet d'imprimer des étiquettes d'expédition pour les produits connectés. Elle est créée à l'aide d'Electron et de React, et est conçue pour être utilisée par les partenaires d'impression de l'entreprise",
     obeobiogas:
-      "Obeo Biogas est une entreprise qui propose des solutions de biogaz. Nous avons conçu une page d'atterrissage pour présenter leurs services et attirer de nouveaux clients",
+      "Obeo Biogas est une entreprise qui propose des solutions de biogaz. Nous avons conçu un site web pour présenter leurs services et attirer de nouveaux clients",
     boxingclub:
       "Boxing Club est une salle de sport qui propose des cours de boxe. Nous avons créé un site web pour eux, qui permet aux utilisateurs de consulter les horaires des cours et de s'inscrire en ligne",
     fireterminator:

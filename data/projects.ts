@@ -14,20 +14,36 @@ export async function getProjects() {
 
   return [
     {
+      link: "https://clickmtl.com",
+      title: "CLICK",
+      date: "2023-03-01",
+      tags: ["Landing Pages"],
+      thumbnail: "/images/work/click.png",
+      description: t("projects.clickmtl"),
+    },
+    {
+      link: "https://dansufoods.com",
+      title: "Dansu Foods",
+      date: "2023-03-01",
+      tags: ["Landing Pages"],
+      thumbnail: "/images/work/dansufoods.png",
+      description: t("projects.dansufoods"),
+    },
+    {
+      link: "https://www.drivite.fr",
+      title: "Drivite",
+      date: "2024-12-01",
+      tags: ["Landing Pages", "Web App"],
+      thumbnail: "/images/work/drivite.png",
+      description: t("projects.drivite"),
+    },
+    {
       link: "https://fireterminator.ca/",
       title: "Fire Terminator",
       date: "2024-03-01",
       tags: ["Landing Pages"],
       thumbnail: "/images/work/fireterminator.png",
       description: t("projects.fireterminator"),
-    },
-    {
-      link: "https://clickmtl.vercel.app/",
-      title: "CLICK",
-      date: "2023-03-01",
-      tags: ["Landing Pages"],
-      thumbnail: "/images/work/click.png",
-      description: t("projects.clickmtl"),
     },
     {
       link: "https://voolta.vercel.app/",
@@ -44,6 +60,14 @@ export async function getProjects() {
       tags: ["Web App", "Landing Pages"],
       thumbnail: "/images/work/sockdatingsim.png",
       description: t("projects.sockdatingsim"),
+    },
+    {
+      link: "https://www.tvlconseils.com",
+      title: "TVL Conseils",
+      date: "2024-12-01",
+      tags: ["Landing Pages"],
+      thumbnail: "/images/work/tvlconseils.png",
+      description: t("projects.tvlconseils"),
     },
     {
       link: "https://www.immovia.ca/",
@@ -70,12 +94,12 @@ export async function getProjects() {
       description: t("projects.alteretgo"),
     },
     {
-      link: "https://topscale.ai/",
-      title: "Topscale",
-      date: "2023-08-15",
-      tags: ["Web App", "Landing Pages"],
-      thumbnail: "/images/work/topscale.png",
-      description: t("projects.topscaleai"),
+      link: "https://leapyearlearning.ai/",
+      title: "Leap Year Learning",
+      date: "2023-03-01",
+      tags: ["Landing Pages"],
+      thumbnail: "/images/work/leapyearlearning.png",
+      description: t("projects.leapyearlearning"),
     },
     {
       link: "https://obeobiogas.com",
@@ -84,14 +108,6 @@ export async function getProjects() {
       tags: ["Landing Pages"],
       thumbnail: "/images/work/obeobiogas.png",
       description: t("projects.obeobiogas"),
-    },
-    {
-      link: "https://leapyearlearning.ai/",
-      title: "Leap Year Learning",
-      date: "2023-03-01",
-      tags: ["Landing Pages"],
-      thumbnail: "/images/work/lyl.png",
-      description: t("projects.leapyearlearning"),
     },
     {
       link: "https://megascale.ai",
